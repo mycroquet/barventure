@@ -1,16 +1,26 @@
 <ion-header>
-  <ion-navbar color="primary">
-    <ion-title><div class="header">
-      <div class="pin">
+  <ion-toolbar color="primary">
 
-      </div>
-      <div class="map-list">
-        <h2>Map/list</h2>
-      </div>
+    <ion-buttons start>
+      <button ion-button icon-only>
+        <ion-icon name="pin"></ion-icon>
+      </button>
+    </ion-buttons>
+    <ion-segment color="secondary">
+      <ion-segment-button value="map">
+        Map
+      </ion-segment-button>
+      <ion-segment-button value="list">
+        List
+      </ion-segment-button>
+    </ion-segment>
+    <ion-buttons end>
+      <button ion-button icon-only>
+        <ion-icon name="more"></ion-icon>
+      </button>
+    </ion-buttons>
 
-    </div></ion-title>
-
-  </ion-navbar>
+  </ion-toolbar>
 </ion-header>
 
 <ion-content padding>
