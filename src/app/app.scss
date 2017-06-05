@@ -16,7 +16,14 @@
 // automatically applied to the <body> element in the app.
 .circle {
   display: inline;
+  float:right;
   border-radius: 50%;
+  height: 25px;
+  width: 25px;
   background-color: orange;
   color: white;
+}
+
+.bold {
+  font-weight: bold;
 }
