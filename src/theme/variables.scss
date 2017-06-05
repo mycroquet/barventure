@@ -25,13 +25,14 @@ $font-path: "../assets/fonts";
 
 $colors: (
   primary:    #00ABC6,
+  theme: #00ABC6,
   secondary:  #004C80,
   danger:     #f53d3d,
   light:      #f4f4f4,
-  dark:       #222
+  dark:       #222,
+  icon: #fff
 );
 
-$control-height: 40px;
 
 
 // App iOS Variables

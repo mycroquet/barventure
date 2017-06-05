@@ -1,6 +1,4 @@
 // http://ionicframework.com/docs/v2/theming/
-
-
 // App Global Sass
 // --------------------------------------------------
 // Put style rules here that you want to apply globally. These
@@ -14,16 +12,62 @@
 // To declare rules for a specific mode, create a child rule
 // for the .md, .ios, or .wp mode classes. The mode class is
 // automatically applied to the <body> element in the app.
+
 .circle {
   display: inline;
-  float:right;
+  float: right;
   border-radius: 50%;
   height: 25px;
   width: 25px;
+  padding-top: 10px;
   background-color: orange;
-  color: white;
+  font-family: 'Avenir-Heavy';
+  font-size: 4.5px;
+  color: #FFFFFF;
 }
 
 .bold {
   font-weight: bold;
 }
+
+.tabs-ios .tab-button:hover:not(.disable-hover),
+.tabs-ios .tab-button[aria-selected=true] {
+  background-color: #0083A9;
+  color: white;
+  font-size: 1.5em;
+  border: none;
+}
+
+.tabs-ios .tab-button:hover:not(.disable-hover),
+.tabs-ios .tab-button[aria-selected=false] {
+  background-color: #00ABC6;
+  color: white;
+  font-size: 1.5em;
+  border: none;
+}
+
+.tabs-ios .tab-button:hover:not(.disable-hover),
+.tabs-ios .tab-button[aria-selected=true] i {
+  background: white;
+
+}
+
+// .tab-item.tab-item-active, .tab-item.active, .tab-item.activated {
+//     color: white;
+// }
+
+.tab-item-active{
+  background:green;
+}
+
+// .tabs-ios .tab-button {
+//     max-width: 240px;
+//     min-height: 49px;
+//     font-size: 10px;
+//     background-color: #00ABC6;
+//     color: white;
+//     padding-left: 2px;
+//     padding-right: 2px;
+//     padding-top: 0;
+//     padding-bottom: 0;
+// }
