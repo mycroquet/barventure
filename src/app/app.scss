@@ -13,21 +13,74 @@
 // for the .md, .ios, or .wp mode classes. The mode class is
 // automatically applied to the <body> element in the app.
 
-.circle {
-  display: inline;
+.active-circle {
+  display: inline-block;
+  text-align: center;
   float: right;
   border-radius: 50%;
-  height: 25px;
-  width: 25px;
-  padding-top: 10px;
+  height: 30px;
+  width: 30px;
   background-color: orange;
   font-family: 'Avenir-Heavy';
   font-size: 4.5px;
   color: #FFFFFF;
 }
 
+.redeemed-circle {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  float: right;
+  border-radius: 50%;
+  height: 30px;
+  width: 30px;
+  background-color: gray;
+  font-family: 'Avenir-Heavy';
+  font-size: 4.5px;
+  color: #FFFFFF;
+}
+
+.days-left-number {
+  font-size: 4em;
+  margin-bottom: 0;
+}
+
 .bold {
   font-weight: bold;
+  color: #000;
+}
+
+.toolbar-ios {
+    padding: 11px;
+    margin-bottom: 15px;
+}
+
+.list-ios {
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0;
+    margin-bottom: 32px;
+}
+
+.list-ios > .item-block:first-child {
+    border-top: none;
+}
+
+.item-ios p {
+    overflow: inherit;
+    font-size: 1.4rem;
+    line-height: normal;
+    text-overflow: inherit;
+    color: #8e9093;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0;
+    margin-bottom: 2px;
+}
+
+.bar-distance {
+  font-size: .5em;
 }
 
 .tabs-ios .tab-button:hover:not(.disable-hover),
@@ -69,22 +122,41 @@
     background-color: #004C80;
 }
 
-// .tab-item.tab-item-active, .tab-item.active, .tab-item.activated {
-//     color: white;
-// }
+.item-ios ion-icon[item-left], .item-ios ion-icon[item-right], .item-ios ion-icon[item-start], .item-ios ion-icon[item-end] {
+    margin-left: 0;
+    color: #80D624;
+}
+
+.item > ion-icon, .item-inner > ion-icon {
+  display: inline-block;
+    min-height: 2.8rem;
+    font-size: 3.5rem;
+    line-height: 1;
+    position: relative;
+    float: right;
+}
+
+ion-label {
+    margin: 0;
+    display: block;
+    overflow: hidden;
+    -webkit-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    font-size: inherit;
+    text-overflow: ellipsis;
+    white-space: normal;
+}
+
+.item-ios h2 {
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0;
+    margin-bottom: 2px;
+    font-size: 2.2rem;
+    font-weight: normal;
+}
 
 .tab-item-active{
   background:green;
 }
-
-// .tabs-ios .tab-button {
-//     max-width: 240px;
-//     min-height: 49px;
-//     font-size: 10px;
-//     background-color: #00ABC6;
-//     color: white;
-//     padding-left: 2px;
-//     padding-right: 2px;
-//     padding-top: 0;
-//     padding-bottom: 0;
-// }
