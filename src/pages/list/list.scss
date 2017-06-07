@@ -16,3 +16,31 @@ page-home {
     margin-top: 0;
     margin-bottom: 0;
 }
+
+.name-distance {
+  display: flex;
+  flex-direction: column;
+}
+
+.list-info {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.deal {
+  display: flex;
+  flex-direction: column;
+  margin-right: 10px;
+  margin-top: 10px;
+}
+
+.deal-arrow {
+  display: flex;
+  flex-direction: row;
+}
+
+ion-icon {
+    display: inline-block;
+    font-size: 2em;
+}

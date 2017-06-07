@@ -26,23 +26,42 @@
 <ion-content>
   <ion-list>
     <ion-list-header class="list-header">
-    Capitol Hill
-  </ion-list-header>
-    <ion-item>
+      Capitol Hill
+    </ion-list-header>
 
-      <ion-thumbnail item-left>
-        <img src="http://via.placeholder.com/75x75">
-      </ion-thumbnail>
-      <div class="active-circle">
-        <span class="days-left-number">15</span><br>
-        <span class="days-left-text">Days left</span>
-      </div>
-      <h2>The Park Tavern</h2>
-      <p><span class="bar-distance">.02 miles away</span></p>
-      <p><span class="bold">BOGO:</span> Choose your own adventure collins or house made gin and tonic.</p>
+      <ion-grid>
+        <ion-row>
+          <ion-item>
+          <ion-thumbnail item-left>
+            <img src="http://via.placeholder.com/75x75">
+          </ion-thumbnail>
+          <div class="list-info">
+            <div class="name-distance">
+              <h2>The Park Tavern</h2>
+              <p><span class="bar-distance">.02 miles away</span></p>
+            </div>
 
-      <ion-icon name="arrow-forward" item-right></ion-icon>
+            <div class="active-circle">
+              <span class="days-left-number">15</span><br>
+              <span class="days-left-text">Days left</span>
+            </div>
+            <!-- <div class="distance">
+
+              </div> -->
+          </div>
+          <div class="deal-arrow">
+            <div class="deal">
+              <p><span class="bold">BOGO:</span> Choose your own adventure collins or house made gin and tonic.</p>
+            </div>
+            <div class="list-arrow">
+              <ion-icon name="arrow-forward" item-right></ion-icon>
+            </div>
+          </div>
+
+
     </ion-item>
+  </ion-row>
+</ion-grid>
     <ion-item>
       <ion-thumbnail item-left>
         <img src="http://via.placeholder.com/75x75">
