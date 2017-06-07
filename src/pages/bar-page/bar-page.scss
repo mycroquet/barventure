@@ -2,6 +2,25 @@ page-home {
 
 }
 
+.back {
+  display: flex;
+  color: #FFF;
+}
+
+ion-icon {
+    display: inline-block;
+    font-family: "Ionicons";
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: normal;
+    line-height: 1;
+    text-rendering: auto;
+    text-transform: none;
+    speak: none;
+}
+
 .bar-thumbnail img {
   display: flex;
   max-height: 90px;

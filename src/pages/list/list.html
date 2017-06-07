@@ -41,37 +41,45 @@
             </div>
 
             <div class="active-circle">
-              <span class="days-left-number">15</span><br>
+              <span class="days-left-number">15</span>
               <span class="days-left-text">Days left</span>
             </div>
-            <!-- <div class="distance">
 
-              </div> -->
           </div>
           <div class="deal-arrow">
             <div class="deal">
               <p><span class="bold">BOGO:</span> Choose your own adventure collins or house made gin and tonic.</p>
             </div>
-            <div class="list-arrow">
-              <ion-icon name="arrow-forward" item-right></ion-icon>
+            <div class="list-arrow active-arrow">
+              <a href="#"><ion-icon name="arrow-forward"  item-right></ion-icon></a>
             </div>
           </div>
-
-
     </ion-item>
-    <ion-item>
-      <ion-thumbnail item-left>
-        <img src="http://via.placeholder.com/75x75">
-      </ion-thumbnail>
-      <div class="redeemed-circle">
-        <span class="days-left-text">Redeemed</span>
+    <ion-item class="redeemed">
+      <div class="list-thumbnail">
+        <ion-thumbnail item-left>
+          <img src="http://via.placeholder.com/75x75">
+        </ion-thumbnail>
       </div>
-      <h2>Stoney's Bar & Grill</h2>
+    <div class="list-info">
+      <div class="name-distance">
+        <h2>Stoney's Bar & Grill</h2>
+        <p><span class="bar-distance">.05 miles away</span></p>
+      </div>
 
-      <p><span class="bar-distance">.05 miles away</span></p>
-      <p><span class="bold">BOGO:</span> You call it.</p>
+      <div class="redeemed-circle">
+        Redeemed
+      </div>
 
-      <ion-icon name="arrow-forward" item-right></ion-icon>
-    </ion-item>
+    </div>
+    <div class="deal-arrow">
+      <div class="deal">
+        <p><span class="bold">BOGO:</span> You call it.</p>
+      </div>
+      <div class="list-arrow">
+        <a href="#" class="redeemed"><ion-icon name="arrow-forward" item-right></ion-icon></a>
+      </div>
+    </div>
+</ion-item>
   </ion-list>
 </ion-content>

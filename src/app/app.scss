@@ -18,71 +18,6 @@ body {
   font-family: 'Avenir-Heavy';
 }
 
-.active-circle {
-  display: inline-block;
-  text-align: center;
-  float: right;
-  border-radius: 50%;
-  height: 40px;
-  width: 40px;
-  max-width: 50px;
-  max-height: 50px;
-  background-color: orange;
-  font-family: 'Avenir-Heavy';
-  font-size: 6.5px;
-  color: #FFFFFF;
-}
-
-.redeemed-circle {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  float: right;
-  border-radius: 50%;
-  height: 40px;
-  width: 40px;
-  max-width: 50px;
-  max-height: 50px;
-  background-color: gray;
-  font-size: 6.5px;
-  color: #FFFFFF;
-}
-
-.bar-distance {
-  font-size: 0.8em;
-  font-style: italic;
-  margin-bottom: 3px;
-}
-
-.days-left-number {
-  font-size: 3em;
-  margin-bottom: 0;
-}
-
-.days-left-text {
-  font-size: 1em;
-}
-
-.bold {
-  font-weight: bold;
-  color: #48494A;
-}
-
-.toolbar-ios {
-  padding: 11px;
-  margin-bottom: 15px;
-  min-height: 44px;
-  height: 5em;
-}
-
-.list-ios {
-  margin: 0 0 32px;
-}
-
-.list-ios > .item-block:first-child {
-  border-top: none;
-}
 
 .item-ios p {
   overflow: inherit;
@@ -132,13 +67,13 @@ body {
   background-color: #004C80;
 }
 
-.item-ios ion-icon[item-end],
-.item-ios ion-icon[item-left],
-.item-ios ion-icon[item-right],
-.item-ios ion-icon[item-start] {
-  margin-left: 0;
-  color: #80D624;
-}
+// .item-ios ion-icon[item-end],
+// .item-ios ion-icon[item-left],
+// .item-ios ion-icon[item-right],
+// .item-ios ion-icon[item-start] {
+//   margin-left: 0;
+//   color: #80D624;
+// }
 
 .item-ios ion-avatar[item-left],
 .item-ios ion-avatar[item-start],
@@ -184,7 +119,6 @@ body {
   position: relative;
   float: right;
 }
-
 
 ion-label {
   margin: 0;
