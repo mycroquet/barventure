@@ -5,7 +5,7 @@ page-home {
 .bar-thumbnail {
   display: flex;
   max-height: 90px;
-
+  width: 22vw;
 }
 
 .bar-info {
@@ -17,6 +17,7 @@ page-home {
 .bar-title {
   display: flex;
   flex-direction: column;
+  width: 60vw;
   margin: 0 1em 1em 0;
 }
 
@@ -26,7 +27,7 @@ page-home {
 }
 
 .bar-title p {
-  margin: 0;
+  margin: 5px;
   color: gray;
 }
 
@@ -48,4 +49,8 @@ page-home {
     font-family: 'Avenir-Heavy';
     font-size: 6.5px;
     color: #FFFFFF;
+}
+
+.slides {
+  height: 12em;
 }

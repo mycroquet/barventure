@@ -6,25 +6,41 @@
 
 <ion-content>
   <ion-grid>
-  <ion-row>
-    <ion-col col-12 col-sm-9 col-md-6 col-lg-4 col-xl-3>
-      <section class="bar-info">
-        <div class="bar-thumbnail" col-3>
-          <img src="http://via.placeholder.com/75x75" alt="">
-        </div>
-        <div class="bar-title" col-6>
-          <h2>The Park Tavern</h2>
-          <p><span class="bar-distance">.02 miles away</span></p>
-          <p><span class="bold">BOGO:</span> <span class="bar-deal">Choose your own adventure collins or house made gin and tonic.</span></p>
-        </div>
-        <div class="days-left-circle" col-3>
-          <span class="days-left-number">15</span><br>
-          <span class="days-left-text">days left</span>
-        </div>
+    <ion-row>
+      <ion-col col-12 col-sm-9 col-md-6 col-lg-4 col-xl-3>
+        <section class="bar-info">
+          <div class="bar-thumbnail">
+            <img src="http://via.placeholder.com/75x75" alt="">
+          </div>
+          <div class="bar-title">
+            <h2>The Park Tavern</h2>
+            <p><span class="bar-distance">.02 miles away</span></p>
+            <p><span class="bold">BOGO:</span> <span class="bar-deal">Choose your own adventure collins or house made gin and tonic.</span></p>
+          </div>
+          <div class="days-left-circle">
+            <span class="days-left-number">15</span><br>
+            <span class="days-left-text">days left</span>
+          </div>
+        </section>
+        <section class="slides">
+          <ion-slides pager>
 
-      </section>
-    </ion-col>
-  </ion-row>
-</ion-grid>
+            <ion-slide style="background-color: green">
+              <h2>Slide 1</h2>
+            </ion-slide>
+
+            <ion-slide style="background-color: blue">
+              <h2>Slide 2</h2>
+            </ion-slide>
+
+            <ion-slide style="background-color: red">
+              <h2>Slide 3</h2>
+            </ion-slide>
+
+          </ion-slides>
+        </section>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
 
 </ion-content>
