@@ -19,18 +19,18 @@ body {
 }
 
 .active-circle {
-    display: inline-block;
-    text-align: center;
-    float: right;
-    border-radius: 50%;
-    height: 40px;
-    width: 40px;
-    max-width: 50px;
-    max-height: 50px;
-    background-color: orange;
-    font-family: 'Avenir-Heavy';
-    font-size: 6.5px;
-    color: #FFFFFF;
+  display: inline-block;
+  text-align: center;
+  float: right;
+  border-radius: 50%;
+  height: 40px;
+  width: 40px;
+  max-width: 50px;
+  max-height: 50px;
+  background-color: orange;
+  font-family: 'Avenir-Heavy';
+  font-size: 6.5px;
+  color: #FFFFFF;
 }
 
 .redeemed-circle {
@@ -50,7 +50,7 @@ body {
 }
 
 .bar-distance {
-  font-size: .8em;
+  font-size: 0.8em;
   font-style: italic;
   margin-bottom: 3px;
 }
@@ -70,34 +70,27 @@ body {
 }
 
 .toolbar-ios {
-    padding: 11px;
-    margin-bottom: 15px;
-    min-height: 44px;
-    height: 5em;
+  padding: 11px;
+  margin-bottom: 15px;
+  min-height: 44px;
+  height: 5em;
 }
 
-
 .list-ios {
-    margin-left: 0;
-    margin-right: 0;
-    margin-top: 0;
-    margin-bottom: 32px;
+  margin: 0 0 32px;
 }
 
 .list-ios > .item-block:first-child {
-    border-top: none;
+  border-top: none;
 }
 
 .item-ios p {
-    overflow: inherit;
-    font-size: 1.4rem;
-    line-height: normal;
-    text-overflow: inherit;
-    color: #8e9093;
-    margin-left: 0;
-    margin-right: 0;
-    margin-top: 0;
-    margin-bottom: 2px;
+  overflow: inherit;
+  font-size: 1.4rem;
+  line-height: normal;
+  text-overflow: inherit;
+  color: #8e9093;
+  margin: 0 0 2px;
 }
 
 .tabs-ios .tab-button:hover:not(.disable-hover),
@@ -117,118 +110,100 @@ body {
 }
 
 .tabs-ios .tab-button[aria-selected=true] .tab-button-icon {
-    color: #FFF;
+  color: #FFF;
 }
 
 .tabs-ios .tab-button-icon {
-    margin-top: 4px;
-    margin-bottom: 1px;
-    min-width: 35px;
-    height: 30px;
-    font-size: 30px;
-    color: #FFF;
+  margin-top: 4px;
+  margin-bottom: 1px;
+  min-width: 35px;
+  height: 30px;
+  font-size: 30px;
+  color: #FFF;
 }
 
 .segment-ios .segment-button {
-    border-top-left-radius: 0;
-    border-top-right-radius: 4px;
-    border-bottom-right-radius: 4px;
-    border-bottom-left-radius: 0;
-    margin-left: 0px;
-    border-left-width: 0;
-    background-color: #004C80;
+  border-top-left-radius: 0;
+  border-top-right-radius: 4px;
+  border-bottom-right-radius: 4px;
+  border-bottom-left-radius: 0;
+  margin-left: 0;
+  border-left-width: 0;
+  background-color: #004C80;
 }
 
-.item-ios ion-icon[item-left], .item-ios ion-icon[item-right], .item-ios ion-icon[item-start], .item-ios ion-icon[item-end] {
-    margin-left: 0;
-    color: #80D624;
+.item-ios ion-icon[item-end],
+.item-ios ion-icon[item-left],
+.item-ios ion-icon[item-right],
+.item-ios ion-icon[item-start] {
+  margin-left: 0;
+  color: #80D624;
 }
 
-.item-ios ion-avatar[item-left], .item-ios ion-thumbnail[item-left], .item-ios ion-avatar[item-start], .item-ios ion-thumbnail[item-start] {
-    margin-left: 0;
-    margin-right: 0px;
-    margin-top: 8px;
-    margin-bottom: 0px;
+.item-ios ion-avatar[item-left],
+.item-ios ion-avatar[item-start],
+.item-ios ion-thumbnail[item-left],
+.item-ios ion-thumbnail[item-start] {
+  margin: 8px 0 0;
 }
 
 .item-ios ion-thumbnail {
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
-    min-width: 75px;
-    min-height: 75px;
-    width: 75px;
-    height: 75px;
+  min-width: 75px;
+  min-height: 75px;
+  width: 75px;
+  height: 75px;
 }
 
-.item-ios ion-thumbnail ion-img, .item-ios ion-thumbnail img {
-    width: 75px;
-    height: 75px;
-    margin-left: 0;
+.item-ios ion-thumbnail img,
+.item-ios ion-thumbnail ion-img {
+  width: 75px;
+  height: 75px;
+  margin-left: 0;
 }
 
 .item-ios {
-    padding-left: 3px;
-    position: relative;
-    border-radius: 0;
-    min-height: 100px;
-    font-size: 1.7rem;
-    color: #000;
-    background-color: #fff;
-    transition: background-color 200ms linear;
+  padding-left: 3px;
+  position: relative;
+  border-radius: 0;
+  min-height: 100px;
+  font-size: 1.7rem;
+  color: #000;
+  background-color: #fff;
+  transition: background-color 200ms linear;
 }
 
-.item > ion-icon, .item-inner > ion-icon {
+.item > ion-icon,
+.item-inner > ion-icon {
   display: inline-block;
-    min-height: 2.8rem;
-    font-size: 3.5rem;
-    line-height: 1;
-    position: relative;
-    float: right;
+  min-height: 2.8rem;
+  font-size: 3.5rem;
+  line-height: 1;
+  position: relative;
+  float: right;
 }
 
-.input-wrapper {
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    display: flex;
-    overflow: hidden;
-    -webkit-flex: 1;
-    -ms-flex: 1;
-    flex: 1;
-    -webkit-flex-direction: inherit;
-    -ms-flex-direction: inherit;
-    flex-direction: inherit;
-    -webkit-align-items: inherit;
-    -ms-flex-align: inherit;
-    align-items: inherit;
-    -webkit-align-self: stretch;
-    -ms-flex-item-align: stretch;
-    align-self: stretch;
-    text-overflow: ellipsis;
-    margin-left: 10px;
-}
 
 ion-label {
-    margin: 0;
-    display: block;
-    overflow: hidden;
-    -webkit-flex: 1;
-    -ms-flex: 1;
-    flex: 1;
-    font-size: inherit;
-    text-overflow: ellipsis;
-    white-space: normal;
+  margin: 0;
+  display: block;
+  overflow: hidden;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  font-size: inherit;
+  text-overflow: ellipsis;
+  white-space: normal;
 }
 
 .item-ios h2 {
-    margin-left: 0;
-    margin-right: 0;
-    margin-top: 0;
-    margin-bottom: 0;
-    font-size: 2.2rem;
-    font-weight: normal;
+  margin: 0;
+  font-size: 2.2rem;
+  font-weight: normal;
 }
 
-.tab-item-active{
-  background:green;
+.tab-item-active {
+  background: green;
 }

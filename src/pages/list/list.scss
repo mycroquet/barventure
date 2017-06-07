@@ -26,6 +26,14 @@ page-home {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  padding-left: 10px;
+}
+
+.list-thumbnail {
+  display: inline-block;
+  float: left;
+  top: 0;
+  left: 0;
 }
 
 .deal {
@@ -38,9 +46,31 @@ page-home {
 .deal-arrow {
   display: flex;
   flex-direction: row;
+  padding-left: 10px;
 }
 
 ion-icon {
     display: inline-block;
     font-size: 2em;
+}
+
+.input-wrapper {
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    overflow: hidden;
+    -webkit-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    -webkit-flex-direction: inherit;
+    -ms-flex-direction: inherit;
+    flex-direction: inherit;
+    -webkit-align-items: inherit;
+    -ms-flex-align: inherit;
+    align-items: inherit;
+    -webkit-align-self: stretch;
+    -ms-flex-item-align: stretch;
+    align-self: stretch;
+    text-overflow: ellipsis;
+    margin-left: 0;
 }
