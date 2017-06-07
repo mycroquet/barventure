@@ -1,0 +1,51 @@
+page-home {
+
+}
+
+.bar-thumbnail {
+  display: flex;
+  max-height: 90px;
+
+}
+
+.bar-info {
+  display: flex;
+  flex-direction: row;
+  width: 100vw;
+}
+
+.bar-title {
+  display: flex;
+  flex-direction: column;
+  margin: 0 1em 1em 0;
+}
+
+.bar-title h2 {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.bar-title p {
+  margin: 0;
+  color: gray;
+}
+
+.bar-deal {
+  color: orange;
+  font-weight: 600;
+}
+
+.days-left-circle {
+    display: inline-block;
+    text-align: center;
+    float: right;
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+    max-width: 42px;
+    max-height: 42px;
+    background-color: orange;
+    font-family: 'Avenir-Heavy';
+    font-size: 6.5px;
+    color: #FFFFFF;
+}

@@ -14,16 +14,18 @@
 // automatically applied to the <body> element in the app.
 
 .active-circle {
-  display: inline-block;
-  text-align: center;
-  float: right;
-  border-radius: 50%;
-  height: 30px;
-  width: 30px;
-  background-color: orange;
-  font-family: 'Avenir-Heavy';
-  font-size: 4.5px;
-  color: #FFFFFF;
+    display: inline-block;
+    text-align: center;
+    float: right;
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+    max-width: 50px;
+    max-height: 50px;
+    background-color: orange;
+    font-family: 'Avenir-Heavy';
+    font-size: 6.5px;
+    color: #FFFFFF;
 }
 
 .redeemed-circle {
@@ -33,16 +35,18 @@
   align-items: center;
   float: right;
   border-radius: 50%;
-  height: 30px;
-  width: 30px;
+  height: 40px;
+  width: 40px;
+  max-width: 50px;
+  max-height: 50px;
   background-color: gray;
   font-family: 'Avenir-Heavy';
-  font-size: 4.5px;
+  font-size: 6.5px;
   color: #FFFFFF;
 }
 
 .days-left-number {
-  font-size: 4em;
+  font-size: 3em;
   margin-bottom: 0;
 }
 
@@ -80,7 +84,8 @@
 }
 
 .bar-distance {
-  font-size: .5em;
+  font-size: .7em;
+  font-style: italic;
 }
 
 .tabs-ios .tab-button:hover:not(.disable-hover),
