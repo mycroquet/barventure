@@ -2,10 +2,10 @@ page-home {
 
 }
 
-.bar-thumbnail {
+.bar-thumbnail img {
   display: flex;
   max-height: 90px;
-  width: 22vw;
+  width: 21vw;
 }
 
 .bar-info {
@@ -18,10 +18,11 @@ page-home {
   display: flex;
   flex-direction: column;
   width: 60vw;
-  margin: 0 1em 1em 0;
+  margin: 0 1em 1em .5em;
 }
 
 .bar-title h2 {
+  color: #48494A;
   margin-top: 0;
   margin-bottom: 0;
 }
@@ -52,5 +53,71 @@ page-home {
 }
 
 .slides {
-  height: 12em;
+  height: 15em;
+  margin-bottom: 20px;
+}
+
+.bar-description {
+  display: flex;
+
+}
+
+.description {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  color: #48494A;
+}
+
+.address {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  color: #48494A;
+}
+
+.button-ios {
+    border-radius: 4px;
+    height: 1.8em;
+    width: 9em;
+    font-size: 1.6rem;
+    color: #fff;
+    background-color: #00ABC6;
+    margin-left: 2rem;
+    margin-right: 0.2rem;
+    margin-top: 0.4rem;
+    margin-bottom: 0.4rem;
+    padding-left: 1em;
+    padding-right: 1em;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+.redeem-button {
+  display: flex;
+  justify-content: center;
+  margin-top: 15px;
+}
+
+.redeem-button .button-ios {
+    border-radius: 6px;
+    height: 2.5em;
+    width: 10em;
+    font-size: 2em;
+    color: #fff;
+    background-color: #7ED525;
+    margin-left: 0.2rem;
+    margin-right: 0.2rem;
+    margin-top: 0.4rem;
+    margin-bottom: 0.4rem;
+    padding-left: 1em;
+    padding-right: 1em;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+.tags-text {
+  font-style: italic;
+  color: #00ABC6;
 }

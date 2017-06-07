@@ -13,6 +13,10 @@
 // for the .md, .ios, or .wp mode classes. The mode class is
 // automatically applied to the <body> element in the app.
 
+body {
+  color: #48494A;
+}
+
 .active-circle {
     display: inline-block;
     text-align: center;
@@ -45,14 +49,23 @@
   color: #FFFFFF;
 }
 
+.bar-distance {
+  font-size: .8em;
+  font-style: italic;
+}
+
 .days-left-number {
   font-size: 3em;
   margin-bottom: 0;
 }
 
+.days-left-text {
+  font-size: 1em;
+}
+
 .bold {
   font-weight: bold;
-  color: #000;
+  color: #48494A;
 }
 
 .toolbar-ios {
@@ -81,11 +94,6 @@
     margin-right: 0;
     margin-top: 0;
     margin-bottom: 2px;
-}
-
-.bar-distance {
-  font-size: .7em;
-  font-style: italic;
 }
 
 .tabs-ios .tab-button:hover:not(.disable-hover),
