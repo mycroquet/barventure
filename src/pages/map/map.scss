@@ -6,7 +6,7 @@ page-home {
   display: flex;
   justify-content: center;
   width: 100vw;
-  height: 67vh;
+  height: 79%;
 }
 
 .active-circle {
@@ -31,6 +31,14 @@ page-home {
 
 .redeemed {
   color: #9B9B9B;
+}
+
+item-ios {
+  height: 21%;
+}
+
+item-md {
+  height: 21%;
 }
 
 // .item-ios ion-icon[item-end], .item-ios ion-icon[item-left], .item-ios ion-icon[item-right], .item-ios ion-icon[item-start] .list-arrow-redeemed {

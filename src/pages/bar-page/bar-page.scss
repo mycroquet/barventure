@@ -121,6 +121,23 @@ ion-icon {
     padding-bottom: 0;
 }
 
+.button-md {
+    border-radius: 4px;
+    height: 1.8em;
+    width: 9.5em;
+    font-size: 1.2rem;
+    color: #fff;
+    background-color: #00ABC6;
+    margin-left: 0;
+    margin-right: 0.2rem;
+    margin-top: 0.4rem;
+    margin-bottom: 0.4rem;
+    padding-left: 1em;
+    padding-right: 1em;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
 .redeem-button {
   display: flex;
   justify-content: center;
@@ -128,6 +145,23 @@ ion-icon {
 }
 
 .redeem-button .button-ios {
+    border-radius: 6px;
+    height: 2.5em;
+    width: 95vw;
+    font-size: 2em;
+    color: #fff;
+    background-color: #7ED525;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0.4rem;
+    margin-bottom: 0.4rem;
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+.redeem-button .button-md {
     border-radius: 6px;
     height: 2.5em;
     width: 95vw;
