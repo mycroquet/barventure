@@ -18,6 +18,11 @@ body {
   font-family: 'Avenir-Heavy';
 }
 
+.logo {
+  display: inline-block;
+  float: left;
+}
+
 .toolbar-ios {
     padding: 11px;
     margin-bottom: 0 !important;
@@ -28,6 +33,7 @@ body {
 .toolbar-md {
     padding: 11px;
     margin-bottom: 0 !important;
+    min-height: 0 !important;
     height: 5em;
 }
 
@@ -118,7 +124,9 @@ body {
 }
 
 .segment-md {
-  width: 50%;
+  width: 75%;
+  margin-left: 0;
+  margin-right: 2em;
 }
 
 .segment-md .segment-button {
@@ -131,9 +139,14 @@ body {
   padding-bottom: 20px !important;
 }
 
+.toolbar {
+  display: flex;
+  justify-content: space-between;
+}
+
 .toolbar .segment-md {
   margin-left: auto;
-  margin-right: auto;
+  margin-right: 2em;
   margin-top: 0;
   margin-bottom: 0;
 }

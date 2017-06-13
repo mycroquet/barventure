@@ -2,17 +2,17 @@ page-home {
 
 }
 
-.logo {
-  display: flex;
-  justify-content: flex-start;
-  align-self: flex-start;
-}
-
 .map {
   display: flex;
   justify-content: center;
   width: 100vw;
   height: 79%;
+}
+
+.map-list {
+  display: flex;
+  justify-content: flex-end;
+  margin-left: 0;
 }
 
 .active-circle {
@@ -56,8 +56,6 @@ item-md {
     margin-left: 0;
     color: #7ED525;
 }
-
-
 
 .redeemed-circle {
   display: flex;
