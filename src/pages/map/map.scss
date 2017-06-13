@@ -2,70 +2,11 @@ page-home {
 
 }
 
-.orange-pin-unselected {
-  width: 2.5em;
-  height: 2.5em;
-  border-radius: 50% 50% 50% 0;
-  background: #00B0CC;
-  position: absolute;
-  transform: rotate(-45deg);
-  left: 50%;
-  top: 50%;
+.logo {
+  display: flex;
+  justify-content: flex-start;
+  align-self: flex-start;
 }
-  .orange-pin-unselected:after {
-    content: '';
-    width: 10px;
-    height: 10px;
-    border: 5px solid #FCA500;
-    margin: 10px;
-    background: #FFF;
-    position: absolute;
-    border-radius: 50%;
-  }
-
-  .green-pin-unselected {
-    width: 2.5em;
-    height: 2.5em;
-    border-radius: 50% 50% 50% 0;
-    background: #00B0CC;
-    position: absolute;
-    transform: rotate(-45deg);
-    left: 50%;
-    top: 50%;
-  }
-    .green-pin-unselected:after {
-      content: '';
-      width: 10px;
-      height: 10px;
-      border: 5px solid #7ED525;
-      margin: 10px;
-      background: #FFF;
-      position: absolute;
-      border-radius: 50%;
-    }
-
-    .red-pin-unselected {
-      width: 2.5em;
-      height: 2.5em;
-      border-radius: 50% 50% 50% 0;
-      background: #00B0CC;
-      position: absolute;
-      transform: rotate(-45deg);
-      left: 50%;
-      top: 50%;
-    }
-      .red-pin-unselected:after {
-        content: '';
-        width: 10px;
-        height: 10px;
-        border: 5px solid #D50000;
-        margin: 10px;
-        background: #FFF;
-        position: absolute;
-        border-radius: 50%;
-      }
-
-
 
 .map {
   display: flex;

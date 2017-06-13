@@ -138,6 +138,14 @@ ion-icon {
     padding-bottom: 0;
 }
 
+.redeemed-directions .button-ios {
+  background-color: #7ED525;
+}
+
+.redeemed-directions .button-md {
+  background-color: #7ED525;
+}
+
 .redeem-button {
   display: flex;
   justify-content: center;
@@ -162,6 +170,40 @@ ion-icon {
 }
 
 .redeem-button .button-md {
+    border-radius: 6px;
+    height: 2.5em;
+    width: 95vw;
+    font-size: 2em;
+    color: #fff;
+    background-color: #7ED525;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0.4rem;
+    margin-bottom: 0.4rem;
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+.redeemed-button .button-ios {
+    border-radius: 6px;
+    height: 2.5em;
+    width: 95vw;
+    font-size: 2em;
+    color: #fff;
+    background-color: #9B9B9B;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0.4rem;
+    margin-bottom: 0.4rem;
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+.redeemed-button .button-md {
     border-radius: 6px;
     height: 2.5em;
     width: 95vw;
