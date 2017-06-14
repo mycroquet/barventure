@@ -1,0 +1,113 @@
+page-home {
+  font-family: 'Avenir-Heavy';
+  background-color: #FFF;
+  height: 100vh;
+}
+
+.create-account h1 {
+  font-size: 2.5em;
+  color: #FFF;
+}
+
+.create-account {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+
+.skip {
+  display: flex;
+  justify-content: flex-end;
+  font-size: 1.7em;
+  font-weight: lighter;
+}
+
+.skip a {
+  text-decoration: none;
+}
+
+.first-drink {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 0;
+}
+
+.first-drink h2 {
+  color: #00487C;
+  font-size: 2.5em;
+}
+
+.instructions {
+  display: flex;
+  color: #00B0CA;
+  justify-content: center;
+  font-size: 1.4em;
+  padding: 0 2em 0 1em;
+  margin-left: 0.7em;
+}
+
+.email {
+  display: flex;
+  justify-content: center;
+}
+
+.item-ios {
+  padding-left: 3px;
+  position: relative;
+  border-radius: 0;
+  min-height: 50px;
+  font-size: 1.7rem;
+  width: 75%;
+  color: #000;
+  background-color: #fff;
+  transition: background-color 200ms linear;
+}
+
+.item-md {
+  padding-left: 3px;
+  position: relative;
+  border-radius: 0;
+  min-height: 50px;
+  width: 75%;
+  font-size: 1.7rem;
+  color: #000;
+  background-color: #fff;
+  transition: background-color 200ms linear;
+}
+
+.social-media-auth {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.social-media-auth p {
+  margin: 0;
+  font-size: 2.5em;
+}
+
+.facebook-button {
+  background-color: #5069AD;
+  color: #FFF;
+  border-radius: 22px;
+  width: 11em;
+  height: 3em;
+  margin-bottom: 1.3em;
+}
+
+.google-button {
+  background-color: #F64949;
+  color: #FFF;
+  border-radius: 22px;
+  width: 11em;
+  height: 3em;
+}
+
+.send-verification {
+  background-color: #C2C2C2;
+  font-size: 2em;
+  width: 95%;
+  height: 2em;
+  margin-top: 1.5em;
+  margin-bottom: 1em;
+}

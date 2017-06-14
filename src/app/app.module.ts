@@ -10,6 +10,9 @@ import { TabsPage } from '../pages/tabs/tabs';
 import { MapPage } from '../pages/map/map';
 import { ListPage } from '../pages/list/list';
 import { BarPage } from '../pages/bar-page/bar-page';
+import { CreateAccountPage } from '../pages/create-account/create-account';
+import { ConfirmedPage } from '../pages/confirmed/confirmed';
+
 
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
@@ -23,7 +26,9 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     TabsPage,
     MapPage,
     ListPage,
-    BarPage
+    BarPage,
+    CreateAccountPage,
+    ConfirmedPage
   ],
   imports: [
     BrowserModule,
@@ -38,7 +43,9 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     TabsPage,
     MapPage,
     ListPage,
-    BarPage
+    BarPage,
+    CreateAccountPage,
+    ConfirmedPage
   ],
   providers: [
     StatusBar,
