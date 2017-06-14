@@ -1,86 +1,25 @@
 <ion-header>
   <ion-toolbar color="primary">
-    <div class="logo">
-      <img src="assets/images/logo.png" alt="">
+    <div class="confirmed">
+      <h1>Confirmed</h1>
     </div>
-    <ion-segment color="light">
-      <ion-segment-button value="map">
-        Map
-      </ion-segment-button>
-      <ion-segment-button value="list">
-        List
-      </ion-segment-button>
-    </ion-segment>
-    <ion-buttons end>
-      <button ion-button icon-only>
-        <ion-icon name="menu"></ion-icon>
-      </button>
-    </ion-buttons>
-
   </ion-toolbar>
 </ion-header>
 
 <ion-content>
-  <ion-list>
-    <ion-list-header class="list-header">
-      Capitol Hill
-    </ion-list-header>
-    <ion-item>
-      <div class="list-thumbnail">
-        <ion-thumbnail item-left>
-          <img src="http://via.placeholder.com/75x75">
-        </ion-thumbnail>
-      </div>
-      <div class="list-info">
-        <div class="name-distance">
-          <h2>The Park Tavern</h2>
-          <p><span class="bar-distance">.02 miles away</span></p>
-        </div>
-
-        <div class="active-circle">
-          <span class="days-left-number">15</span>
-          <span class="days-left-text">Days left</span>
-        </div>
-
-      </div>
-      <div class="deal-arrow">
-        <div class="deal">
-          <p><span class="bold">BOGO:</span> Choose your own adventure collins or house made gin and tonic.</p>
-        </div>
-        <div class="list-arrow active-arrow">
-          <a href="#">
-            <ion-icon name="arrow-forward" item-right></ion-icon>
-          </a>
-        </div>
-      </div>
-    </ion-item>
-    <ion-item class="redeemed">
-      <div class="list-thumbnail">
-        <ion-thumbnail item-left>
-          <img src="http://via.placeholder.com/75x75">
-        </ion-thumbnail>
-      </div>
-      <div class="list-info">
-        <div class="name-distance">
-          <h2>Stoney's Bar & Grill</h2>
-          <p><span class="bar-distance">.05 miles away</span></p>
-        </div>
-
-        <div class="redeemed-circle">
-          Redeemed
-        </div>
-
-      </div>
-      <div class="deal-arrow">
-        <div class="deal">
-          <p><span class="bold">BOGO:</span> You call it.</p>
-        </div>
-        <div class="list-arrow">
-          <a href="#" class="redeemed">
-            <ion-icon name="arrow-forward" item-right></ion-icon>
-          </a>
-        </div>
-      </div>
-    </ion-item>
-  </ion-list>
+  <ion-grid>
+    <ion-row>
+      <ion-col class="checkmark" col-12>
+         <ion-icon name="checkmark-circle"></ion-icon>
+      </ion-col>
+    </ion-row>
+    <ion-row>
+      <ion-col class="thank-you" col-12>
+        <h2>Thank you!</h2>
+        <p>Your account has been verified.</p>
+        <button ion-button class="continue" full>Continue</button>
+      
+      </ion-col>
+    </ion-row>
+  </ion-grid>
 </ion-content>
