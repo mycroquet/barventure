@@ -1,39 +1,38 @@
 page-home {
-  font-family: 'Avenir-Heavy';
-  background-color: #FFF;
-  height: 100vh;
+
 }
 
 .hero {
   display: flex;
   justify-content: center;
-  margin-bottom: 2em;
+  margin-top: 20%;
 }
 
-.location-header {
+.push-header {
   display: flex;
   justify-content: center;
   margin-bottom: 10px;
 }
 
-.location-header h1{
+.push-header h1 {
   font-size: 2.3em;
   color: #FFF;
 }
 
-.enable-location {
+.enable-push {
   display: flex;
   justify-content: center;
   text-align: center;
+  margin: 10px 17px 0 17px;
 }
 
-.enable-location h2 {
+.enable-push h2 {
   color: #00487C;
   font-size: 1.9em;
   margin-top: 0;
 }
 
-.enable-location p{
+.enable-push p {
   display: flex;
   color: #00B0CA;
   margin: 0;
@@ -43,22 +42,17 @@ page-home {
   font-family: 'Avenir';
 }
 
-.help-us {
-  display: flex;
-  color: #00B0CA;
-  margin: 0;
-  justify-content: center;
-  font-size: 1.4em;
-  font-family: 'Avenir';
-  font-weight: 500;
-  margin-top: 1.5em;
+span {
+  font-weight: 600;
+  padding-left: 3.5px;
+  padding-right: 3.5px;
 }
 
-.push-continue {
+.continue {
   background-color: #7FD524;
   font-size: 2em;
   width: 95%;
   height: 2em;
-  margin-top: 2em;
+  margin-top: 3em;
   margin-bottom: 1em;
 }
