@@ -14,6 +14,7 @@ import { CreateAccountPage } from '../pages/create-account/create-account';
 import { ConfirmedPage } from '../pages/confirmed/confirmed';
 import { EnableLocationPage } from '../pages/enable-location/enable-location';
 import { EnablePushPage } from '../pages/enable-push/enable-push';
+import { RedeemModal } from '../pages/redeem-modal/redeem-modal';
 
 
 import { StatusBar } from '@ionic-native/status-bar';
@@ -32,7 +33,8 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     CreateAccountPage,
     ConfirmedPage,
     EnableLocationPage,
-    EnablePushPage
+    EnablePushPage,
+    RedeemModal
   ],
   imports: [
     BrowserModule,
@@ -51,7 +53,8 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     CreateAccountPage,
     ConfirmedPage,
     EnableLocationPage,
-    EnablePushPage
+    EnablePushPage,
+    RedeemModal
   ],
   providers: [
     StatusBar,

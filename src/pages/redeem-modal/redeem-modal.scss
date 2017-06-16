@@ -1,0 +1,71 @@
+page-home {
+  font-family: 'Avenir-Heavy';
+  display: flex;
+  justify-content: center;
+}
+
+.content-ios {
+    width: 75vw;
+    height: 72vh;
+    color: #FFF;
+    background-color: #014D7E;
+}
+
+.redeem-modal {
+  display: flex;
+  padding-left: 1em;
+  padding-right: 1em;
+  padding-bottom: 0;
+  justify-content: center;
+  align-items: center;
+}
+
+.bartender-server h2 {
+  font-size: 1.5em;
+}
+
+.hand-icon {
+  font-size: 3.4em;
+  color: #D0011B;
+}
+
+.modal-text {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.modal-text h1 {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.modal-text p {
+  font-size: 1.7em;
+  font-family: 'Avenir';
+  margin-top: 1em;
+  margin-bottom: 0;
+}
+
+.redeem {
+  background-color: #95CB2F;
+  width: 100%;
+  margin-top: 1.5em;
+  font-size: 2em;
+}
+
+.scroll-content {
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin-bottom: 0 !important;
+    position: absolute;
+    z-index: 1;
+    display: block;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    -webkit-overflow-scrolling: touch;
+    will-change: scroll-position;
+    contain: size style layout;
+}

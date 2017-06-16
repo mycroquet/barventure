@@ -5,6 +5,9 @@ import { ListPage } from '../list/list';
 import { BarPage } from '../bar-page/bar-page';
 import { EnableLocationPage } from '../enable-location/enable-location';
 import { EnablePushPage } from '../enable-push/enable-push';
+import { CreateAccountPage } from '../create-account/create-account';
+import { ConfirmedPage } from '../confirmed/confirmed';
+import { RedeemModal } from '../redeem-modal/redeem-modal';
 
 
 @Component({
@@ -12,9 +15,9 @@ import { EnablePushPage } from '../enable-push/enable-push';
 })
 export class TabsPage {
 
-  tab1Root = EnableLocationPage;
-  tab2Root = EnablePushPage;
-  tab3Root = EnablePushPage;
+  tab1Root = RedeemModal;
+  tab2Root = CreateAccountPage;
+  tab3Root = ConfirmedPage;
 
   constructor() {
 
