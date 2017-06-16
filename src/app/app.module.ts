@@ -12,6 +12,7 @@ import { ListPage } from '../pages/list/list';
 import { BarPage } from '../pages/bar-page/bar-page';
 import { CreateAccountPage } from '../pages/create-account/create-account';
 import { ConfirmedPage } from '../pages/confirmed/confirmed';
+import { EnableLocationPage } from '../pages/enable-location/enable-location';
 
 
 import { StatusBar } from '@ionic-native/status-bar';
@@ -28,7 +29,8 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     ListPage,
     BarPage,
     CreateAccountPage,
-    ConfirmedPage
+    ConfirmedPage,
+    EnableLocationPage
   ],
   imports: [
     BrowserModule,
@@ -45,7 +47,8 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     ListPage,
     BarPage,
     CreateAccountPage,
-    ConfirmedPage
+    ConfirmedPage,
+    EnableLocationPage
   ],
   providers: [
     StatusBar,

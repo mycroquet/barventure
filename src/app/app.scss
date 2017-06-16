@@ -23,6 +23,10 @@ body {
   float: left;
 }
 
+.header-ios .toolbar-ios:last-child .toolbar-background-ios {
+    border-width: 0;
+}
+
 .toolbar-ios {
     padding: 11px;
     margin-bottom: 0 !important;
