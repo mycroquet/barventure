@@ -15,6 +15,10 @@ import { ConfirmedPage } from '../pages/confirmed/confirmed';
 import { EnableLocationPage } from '../pages/enable-location/enable-location';
 import { EnablePushPage } from '../pages/enable-push/enable-push';
 import { RedeemModal } from '../pages/redeem-modal/redeem-modal';
+import { FirstSlide } from '../pages/slides/slide-1';
+import { SecondSlide } from '../pages/slides/slide-2';
+import { ThirdSlide } from '../pages/slides/slide-3';
+
 
 
 import { StatusBar } from '@ionic-native/status-bar';
@@ -34,7 +38,10 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     ConfirmedPage,
     EnableLocationPage,
     EnablePushPage,
-    RedeemModal
+    RedeemModal,
+    FirstSlide,
+    SecondSlide,
+    ThirdSlide
   ],
   imports: [
     BrowserModule,
@@ -54,7 +61,10 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     ConfirmedPage,
     EnableLocationPage,
     EnablePushPage,
-    RedeemModal
+    RedeemModal,
+    FirstSlide,
+    SecondSlide,
+    ThirdSlide
   ],
   providers: [
     StatusBar,

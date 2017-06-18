@@ -1,0 +1,36 @@
+page-home {
+  font-family: 'Avenir';
+  background-color: #FFF;
+  height: 100vh;
+}
+
+.slogan {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+  max-height: 18vh;
+}
+
+.slogan img {
+  height: 18vh;
+}
+
+.plus1 {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  margin-top: 4em;
+}
+
+.plus1 img {
+  height: 25vh;
+}
+
+.slide-1-text {
+  display: flex;
+  justify-content: center;
+  margin: 20px 10px 0 10px;
+  text-align: center;
+  font-size: 3em;
+  color: #00B0CA;
+}
