@@ -19,7 +19,7 @@ export class TabsPage {
 
   tab1Root = FirstSlide;
   tab2Root = SecondSlide;
-  tab3Root = RedeemModal;
+  tab3Root = ThirdSlide;
 
   constructor() {
 

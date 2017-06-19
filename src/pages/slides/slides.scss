@@ -46,7 +46,43 @@ page-home {
   flex-direction: row;
 }
 
-
 .free-drinks img {
   height: 250px;
+}
+
+.get-started-container {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.get-started-text {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+  text-align: center;
+  font-size: 2.75em;
+  color: #00B0CA;
+}
+
+.get-started-text p {
+  margin-bottom: 5px;
+  margin-top: 0;
+}
+
+.cheers {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+}
+
+.cheers img {
+  height: 230px;
+}
+
+.get-started-btn {
+  background-color: #7FD524;
+  font-size: 2em;
+  margin-top: 1.3em;
+  width: 100%;
+  height: 2em;
 }
