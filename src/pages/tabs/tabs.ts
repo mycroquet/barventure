@@ -6,6 +6,7 @@ import { BarPage } from '../bar-page/bar-page';
 import { EnableLocationPage } from '../enable-location/enable-location';
 import { EnablePushPage } from '../enable-push/enable-push';
 import { RedeemModal } from '../redeem-modal/redeem-modal';
+import { CreateAccountPage } from '../create-account/create-account';
 
 import { FirstSlide } from '../slides/slide-1';
 import { SecondSlide } from '../slides/slide-2';
@@ -17,9 +18,9 @@ import { ThirdSlide } from '../slides/slide-3';
 })
 export class TabsPage {
 
-  tab1Root = FirstSlide;
-  tab2Root = SecondSlide;
-  tab3Root = ThirdSlide;
+  tab1Root = CreateAccountPage;
+  tab2Root = EnablePushPage;
+  tab3Root = EnableLocationPage;
 
   constructor() {
 

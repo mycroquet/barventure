@@ -9,11 +9,8 @@
 <ion-content>
   <ion-grid>
     <ion-row>
-      <ion-col class="skip" col-12><a href="#">Skip</a></ion-col>
-    </ion-row>
-    <ion-row>
       <ion-col class="first-drink" col-12>
-        <h2>First drink is on us!</h2></ion-col>
+        <h2>Get your free drink!</h2></ion-col>
     </ion-row>
     <ion-row>
       <ion-col class="instructions" col-12>
@@ -22,18 +19,20 @@
       </ion-col>
     </ion-row>
     <ion-row>
-      <ion-col class="email" col-12>
+      <ion-col class="login-info" col-12>
         <ion-item>
-          <ion-input type="text" placeholder="Email Address"></ion-input>
+          <ion-input type="text" class="input-box" placeholder="Email Address"></ion-input>
+        </ion-item>
+        <ion-item>
+          <ion-input type="password" class="input-box" placeholder="Password"></ion-input>
         </ion-item>
       </ion-col>
     </ion-row>
     <ion-row>
       <ion-col class="social-media-auth" col-12>
-
           <p>OR</p>
-        <button ion-button color="light" class="facebook-button" round>Log In</button>
-        <button ion-button color="light" class="google-button" round>Log In</button>
+        <button ion-button icon-left color="light" class="facebook-button" round><img src="../assets/icon/Facebook.png" alt="">Log In</button>
+        <button ion-button icon-left color="light" class="google-button" round><img src="../assets/icon/Google.jpg" alt="">Log In</button>
         <button ion-button class="send-verification" full>Send Verification Email</button>
       </ion-col>
 
