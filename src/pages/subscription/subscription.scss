@@ -1,0 +1,96 @@
+page-home {
+  font-family: 'Avenir-Heavy';
+  background-color: #FFF;
+  height: 100vh;
+}
+
+.subscribe-arrow {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+}
+
+.subscribe-arrow h1 {
+  font-size: 2.5em;
+  color: #FFF;
+}
+
+.subscribe {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+
+.subscribe-img {
+    display: flex;
+    justify-content: center;
+}
+
+.arrow-back {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: #FFF;
+}
+
+.subscribe-drinks {
+  display: flex;
+  font-family: 'Avenir';
+  justify-content: center;
+  margin: 0px 10px 0 10px;
+  text-align: center;
+  color: #004A80;
+}
+
+.subscribe-drinks h1 {
+  font-size: 3.4rem;
+}
+
+.subscribe-countless {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+  color: #00B0CA;
+  font-size: 2.2em;
+}
+
+.subscribe-countless p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.subscribe-or {
+
+}
+
+.subscribe-or p {
+		width: 100%;
+		text-align: center;
+		border-top: 1px solid #E9E9E9;
+		height: 10px;
+		line-height: 0.1em;
+    font-size: 1.7em;
+    color: #004A80;
+
+		span {
+			background-color: white;
+      font-family: 'Avenir';
+      font-weight: 500;
+			padding: 0 10px;
+		}
+	}
+
+  .subscribe-share {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: #00B0CA;
+}
+
+.subscribe-share p {
+  font-family: 'Avenir';
+  font-size: 2em;
+  font-weight: 400;
+  margin-top: 0;
+}

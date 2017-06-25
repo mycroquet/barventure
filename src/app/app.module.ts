@@ -18,6 +18,10 @@ import { RedeemModal } from '../pages/redeem-modal/redeem-modal';
 import { FirstSlide } from '../pages/slides/slide-1';
 import { SecondSlide } from '../pages/slides/slide-2';
 import { ThirdSlide } from '../pages/slides/slide-3';
+import { PaymentType } from '../pages/subscription/pay-type';
+import { SelectPlan } from '../pages/subscription/select-plan';
+import { Subscribe } from '../pages/subscription/subscribe';
+import { Verification } from '../pages/subscription/verification';
 
 
 
@@ -41,7 +45,11 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     RedeemModal,
     FirstSlide,
     SecondSlide,
-    ThirdSlide
+    ThirdSlide,
+    PaymentType,
+    SelectPlan,
+    Subscribe,
+    Verification
   ],
   imports: [
     BrowserModule,
@@ -64,7 +72,11 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     RedeemModal,
     FirstSlide,
     SecondSlide,
-    ThirdSlide
+    ThirdSlide,
+    PaymentType,
+    SelectPlan,
+    Subscribe,
+    Verification
   ],
   providers: [
     StatusBar,
