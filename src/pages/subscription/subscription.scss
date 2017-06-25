@@ -15,7 +15,7 @@ page-home {
   color: #FFF;
 }
 
-.subscribe {
+.subscribe-header {
   display: flex;
   flex-direction: row;
   justify-content: flex-start;
@@ -60,9 +60,6 @@ page-home {
   margin-bottom: 0;
 }
 
-.subscribe-or {
-
-}
 
 .subscribe-or p {
 		width: 100%;
@@ -93,4 +90,36 @@ page-home {
   font-size: 2em;
   font-weight: 400;
   margin-top: 0;
+}
+
+.payment-types {
+  padding-left: 2em;
+  padding-right: 2em;
+  margin-bottom: 40%;
+}
+
+.previous-next {
+  display: flex;
+  width: 100%;
+  padding-left: 2em;
+  padding-right: 2em;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.payment-previous-arrow {
+  display: flex;
+  background-color: #00B0CA;
+  border-radius: 50%;
+  width: 3em;
+  height: 3em;
+  color: #FFF;
+  align-content: center;
+  justify-content: flex-start;
+}
+
+.payment-next-arrow {
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 0;
 }

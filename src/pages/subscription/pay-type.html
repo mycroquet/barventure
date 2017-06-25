@@ -1,22 +1,55 @@
 <ion-header>
-  <div class="slogan">
-    <img src="../assets/images/BARVENTURE_logo_trans-1.png" alt="">
-  </div>
+  <ion-toolbar color="primary">
+    <section class="subscribe-arrow">
+      <div class="arrow-back" col-1>
+        <ion-icon name="arrow-back"></ion-icon>
+      </div>
+      <div class="subscribe-header" col-11>
+        <h1>Select Payment Type</h1>
+      </div>
+    </section>
+  </ion-toolbar>
 </ion-header>
 
 <ion-content>
   <ion-grid>
-      <div class="free-drinks">
-        <img src="../assets/images/Freedrinks.png" alt="">
-      </div>
+    <section class=payment-types>
+
+
+      <ion-list radio-group>
+
+        <ion-item>
+          <ion-label>Credit/Debit</ion-label>
+          <ion-radio checked="true" value="credit/debit"></ion-radio>
+        </ion-item>
+
+        <ion-item>
+          <ion-label>Apple Pay</ion-label>
+          <ion-radio value="apple pay"></ion-radio>
+        </ion-item>
+
+        <ion-item>
+          <ion-label>Android Pay</ion-label>
+          <ion-radio value="android pay"></ion-radio>
+        </ion-item>
+      </ion-list>
+    </section>
     <ion-row>
-      <ion-col>
-        <div class="slide-text">
-          <p><span>Upgrade</span> to get full access to all participating bars</p>
+
+      <section class="previous-next">
+        <ion-col>
+        <div class="payment-previous-arrow">
+          <ion-icon name="arrow-round-back"></ion-icon>
         </div>
       </ion-col>
-    </ion-row>
+      <ion-col>
+        <div class="payment-next-arrow">
+          <ion-icon name="arrow-round-forward"></ion-icon>
+        </div>
+      </ion-col>
 
+      </section>
+    </ion-row>
   </ion-grid>
 
 
