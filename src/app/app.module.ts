@@ -8,6 +8,7 @@ import { ContactPage } from '../pages/contact/contact';
 import { HomePage } from '../pages/home/home';
 import { TabsPage } from '../pages/tabs/tabs';
 import { MapPage } from '../pages/map/map';
+import { MapUnsubscribed } from '../pages/map/map-unsubscribed';
 import { ListPage } from '../pages/list/list';
 import { BarPage } from '../pages/bar-page/bar-page';
 import { CreateAccount } from '../pages/create-account/create-account';
@@ -36,6 +37,7 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     HomePage,
     TabsPage,
     MapPage,
+    MapUnsubscribed,
     ListPage,
     BarPage,
     CreateAccount,
@@ -63,6 +65,7 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     HomePage,
     TabsPage,
     MapPage,
+    MapUnsubscribed,
     ListPage,
     BarPage,
     CreateAccount,

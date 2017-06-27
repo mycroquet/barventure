@@ -1,6 +1,7 @@
 import { Component } from '@angular/core';
 
 import { MapPage } from '../map/map';
+import { MapUnsubscribed } from '../map/map-unsubscribed';
 import { ListPage } from '../list/list';
 import { BarPage } from '../bar-page/bar-page';
 import { EnableLocationPage } from '../enable-location/enable-location';
@@ -21,9 +22,9 @@ import { Verification } from '../subscription/verification';
 })
 export class TabsPage {
 
-  tab1Root = Subscribe;
-  tab2Root = Verification;
-  tab3Root = CreateAccount;
+  tab1Root = MapUnsubscribed;
+  tab2Root = MapPage;
+  tab3Root = ListPage;
 
   constructor() {
 
