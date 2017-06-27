@@ -93,6 +93,23 @@ page-home {
   font-size: 2em;
   font-weight: 400;
   margin-top: 0;
+  margin-bottom: 0;
+}
+
+.share-button button {
+  width: 100%;
+  height: 2.3em;
+  font-size: 1.7em;
+  font-family: 'Avenir';
+  background-color: #9B9B9B;
+}
+
+.subscribe-button button {
+  width: 100%;
+  height: 2.3em;
+  font-size: 1.7em;
+  font-family: 'Avenir';
+  background-color: #6FD100;
 }
 
 // Payment type CSS
@@ -176,4 +193,5 @@ page-home {
   color: #00B0CA;
   font-family: 'Avenir';
   font-size: 1.6em;
+  font-weight: 500;
 }
