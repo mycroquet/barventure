@@ -1,7 +1,7 @@
 page-home {
   font-family: 'Avenir-Heavy';
   background-color: #FFF;
-  height: 100vh;
+  // height: 100vh;
 }
 
 // Subscribe page CSS
@@ -13,7 +13,7 @@ page-home {
 }
 
 .subscribe-arrow h1 {
-  font-size: 2.5em;
+  font-size: 10vw;
   color: #FFF;
 }
 
@@ -46,7 +46,8 @@ page-home {
 }
 
 .subscribe-drinks h1 {
-  font-size: 3.4rem;
+  font-size: 8vw;
+  margin-top: 5px;
 }
 
 .subscribe-countless {
@@ -54,11 +55,11 @@ page-home {
   justify-content: center;
   text-align: center;
   flex-direction: column;
-  color: #00B0CA;
-  font-size: 2.2em;
 }
 
 .subscribe-countless p {
+  color: #00B0CA;
+  font-size: 7vw;
   margin-top: 0;
   margin-bottom: 0;
 }
@@ -68,10 +69,12 @@ page-home {
 		width: 100%;
 		text-align: center;
 		border-top: 1px solid #E9E9E9;
-		height: 10px;
+		height: 2vh;
 		line-height: 0.1em;
-    font-size: 1.7em;
+    font-size: 6vw;
     color: #004A80;
+    margin-bottom: 5px;
+    margin-top: 10px;
 
 		span {
 			background-color: white;
@@ -90,16 +93,16 @@ page-home {
 
 .subscribe-share p {
   font-family: 'Avenir';
-  font-size: 2em;
+  font-size: 6vw;
   font-weight: 400;
   margin-top: 0;
-  margin-bottom: 0;
+  margin-bottom: 2vh;
 }
 
 .share-button button {
   width: 100%;
   height: 2.3em;
-  font-size: 1.7em;
+  font-size: 6vw;
   font-family: 'Avenir';
   background-color: #9B9B9B;
 }
@@ -107,7 +110,7 @@ page-home {
 .subscribe-button button {
   width: 100%;
   height: 2.3em;
-  font-size: 1.7em;
+  font-size: 6vw;
   font-family: 'Avenir';
   background-color: #6FD100;
 }
