@@ -10,7 +10,7 @@ import { TabsPage } from '../pages/tabs/tabs';
 import { MapPage } from '../pages/map/map';
 import { ListPage } from '../pages/list/list';
 import { BarPage } from '../pages/bar-page/bar-page';
-import { CreateAccountPage } from '../pages/create-account/create-account';
+import { CreateAccount } from '../pages/create-account/create-account';
 import { ConfirmedPage } from '../pages/confirmed/confirmed';
 import { EnableLocationPage } from '../pages/enable-location/enable-location';
 import { EnablePushPage } from '../pages/enable-push/enable-push';
@@ -38,7 +38,7 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     MapPage,
     ListPage,
     BarPage,
-    CreateAccountPage,
+    CreateAccount,
     ConfirmedPage,
     EnableLocationPage,
     EnablePushPage,
@@ -65,7 +65,7 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     MapPage,
     ListPage,
     BarPage,
-    CreateAccountPage,
+    CreateAccount,
     ConfirmedPage,
     EnableLocationPage,
     EnablePushPage,

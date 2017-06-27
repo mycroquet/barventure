@@ -5,7 +5,7 @@ import { NavController } from 'ionic-angular';
   selector: 'page-home',
   templateUrl: 'create-account.html'
 })
-export class CreateAccountPage {
+export class CreateAccount {
 
   constructor(public navCtrl: NavController) {
 
