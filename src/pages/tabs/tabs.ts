@@ -22,7 +22,7 @@ import { Verification } from '../subscription/verification';
 export class TabsPage {
 
   tab1Root = Subscribe;
-  tab2Root = SelectPlan;
+  tab2Root = Verification;
   tab3Root = PaymentType;
 
   constructor() {
