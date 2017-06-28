@@ -22,7 +22,7 @@ import { Verification } from '../subscription/verification';
 })
 export class TabsPage {
 
-  tab1Root = MapUnsubscribed;
+  tab1Root = Subscribe;
   tab2Root = MapPage;
   tab3Root = ListPage;
 
