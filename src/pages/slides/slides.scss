@@ -1,5 +1,5 @@
 page-home {
-  font-family: 'Avenir';
+  font-family: 'Avenir-Heavy';
   background-color: #FFF;
   height: 100vh;
 }
@@ -15,16 +15,11 @@ page-home {
   height: 18vh;
 }
 
-.plus1 {
+.slide-1-icon {
   display: flex;
   justify-content: center;
   flex-direction: row;
-  margin-top: 3.5em;
-  margin-bottom: 1.3em;
-}
-
-.plus1 img {
-  height: 180px;
+  margin-top: 7vh;
 }
 
 .slide-text {
@@ -32,22 +27,27 @@ page-home {
   justify-content: center;
   margin: 10px 10px 0 10px;
   text-align: center;
-  font-size: 3em;
+  font-size: 7vw;
   color: #00B0CA;
+}
+
+.slide-text h2 {
+  font-size: 9vw;
 }
 
 .slide-text span {
   font-weight: 600;
 }
 
-.free-drinks {
-  display: flex;
-  justify-content: center;
-  flex-direction: row;
+.upgrade .disclaimer {
+  margin-top: 10.5vh;
 }
 
-.free-drinks img {
-  height: 250px;
+.slide-2-icon {
+  display: flex;
+  justify-content: center;
+  margin-top: 7vh;
+  flex-direction: row;
 }
 
 .get-started-container {
@@ -77,6 +77,7 @@ page-home {
   display: flex;
   justify-content: center;
   flex-direction: row;
+  margin-bottom: 2vh;
 }
 
 .get-started-btn {
@@ -85,4 +86,13 @@ page-home {
   margin-top: 5vh;
   width: 100%;
   height: 2em;
+}
+
+.disclaimer {
+  display: flex;
+  font-family: 'Avenir';
+  justify-content: center;
+  font-size: 4vw;
+  margin-top: 5vh;
+  color: #E2E2E2;
 }

@@ -23,9 +23,9 @@ import { Verification } from '../subscription/verification';
 })
 export class TabsPage {
 
-  tab1Root = ThirdSlide;
-  tab2Root = MapPage;
-  tab3Root = ListPage;
+  tab1Root = FirstSlide;
+  tab2Root = SecondSlide;
+  tab3Root = ThirdSlide;
 
   constructor() {
 
