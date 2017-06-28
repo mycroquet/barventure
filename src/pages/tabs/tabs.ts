@@ -4,6 +4,7 @@ import { MapPage } from '../map/map';
 import { MapUnsubscribed } from '../map/map-unsubscribed';
 import { ListPage } from '../list/list';
 import { BarPage } from '../bar-page/bar-page';
+import { ConfirmedPage } from '../confirmed/confirmed';
 import { EnableLocationPage } from '../enable-location/enable-location';
 import { EnablePushPage } from '../enable-push/enable-push';
 import { RedeemModal } from '../redeem-modal/redeem-modal';
@@ -22,7 +23,7 @@ import { Verification } from '../subscription/verification';
 })
 export class TabsPage {
 
-  tab1Root = Subscribe;
+  tab1Root = ThirdSlide;
   tab2Root = MapPage;
   tab3Root = ListPage;
 
