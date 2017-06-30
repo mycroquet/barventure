@@ -2,10 +2,16 @@ page-home {
 
 }
 
-.hero {
+.main-icon {
   display: flex;
   justify-content: center;
-  margin-top: 20%;
+  margin-top: 11vh;
+  margin-bottom: 8vh;
+}
+
+.push-container {
+  padding-left: 3.5vw;
+  padding-right: 3.5vw;
 }
 
 .push-header {
@@ -23,12 +29,13 @@ page-home {
   display: flex;
   justify-content: center;
   text-align: center;
-  margin: 0 17px 0 17px;
+  margin-right: 4vw;
+  margin-left: 4vw;
 }
 
 .enable-push h2 {
   color: #00487C;
-  font-size: 1.9em;
+  font-size: 7vw;
   margin-top: 0;
 }
 
@@ -49,10 +56,11 @@ span {
 }
 
 .push-continue {
+  display: flex;
+  align-self: center;
   background-color: #7FD524;
-  font-size: 2em;
+  font-size: 7vw;
   width: 100%;
   height: 2em;
-  margin-top: 1.9em;
-  margin-bottom: 1em;
+  margin-top: 10.5vh;
 }
