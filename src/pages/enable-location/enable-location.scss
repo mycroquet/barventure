@@ -4,10 +4,16 @@ page-home {
   height: 100vh;
 }
 
-.hero {
+.location-container {
+  padding-left: 3.5vw;
+  padding-right: 3.5vw;
+}
+
+.location-icon {
   display: flex;
   justify-content: center;
-  margin-bottom: 2em;
+  margin-top: 11vh;
+  margin-bottom: 8vh;
 }
 
 .location-header {
@@ -25,11 +31,13 @@ page-home {
   display: flex;
   justify-content: center;
   text-align: center;
+  padding-left: 4vw;
+  padding-right: 4vw;
 }
 
 .enable-location h2 {
   color: #00487C;
-  font-size: 1.9em;
+  font-size: 7vw;
   margin-top: 0;
 }
 
@@ -43,22 +51,12 @@ page-home {
   font-family: 'Avenir';
 }
 
-.help-us {
-  display: flex;
-  color: #00B0CA;
-  margin: 0;
-  justify-content: center;
-  font-size: 1.4em;
-  font-family: 'Avenir';
-  font-weight: 500;
-  margin-top: 1.5em;
-}
-
 .location-continue {
+  display: flex;
+  align-self: center;
   background-color: #7FD524;
-  font-size: 2em;
-  width: 91%;
+  font-size: 7vw;
+  width: 100%;
   height: 2em;
-  margin-top: .85em;
-  margin-bottom: 1em;
+  margin-top: 11vh;
 }

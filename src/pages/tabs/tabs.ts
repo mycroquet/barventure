@@ -23,8 +23,8 @@ import { Verification } from '../subscription/verification';
 })
 export class TabsPage {
 
-  tab1Root = FirstSlide;
-  tab2Root = SecondSlide;
+  tab1Root = EnableLocationPage;
+  tab2Root = EnablePushPage;
   tab3Root = ThirdSlide;
 
   constructor() {
