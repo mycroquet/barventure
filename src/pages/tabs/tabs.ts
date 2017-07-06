@@ -24,7 +24,7 @@ import { Search } from '../search/search';
 export class TabsPage {
 
   tab1Root = MapPage;
-  tab2Root = Search;
+  tab2Root = ListPage;
   tab3Root = SecondSlide;
 
   constructor() {
