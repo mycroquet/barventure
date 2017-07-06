@@ -23,7 +23,7 @@ import { Search } from '../search/search';
 })
 export class TabsPage {
 
-  tab1Root = ThirdSlide;
+  tab1Root = Subscribe;
   tab2Root = EnableLocationPage;
   tab3Root = EnablePushPage;
 

@@ -97,21 +97,11 @@ page-home {
   margin-bottom: 2vh;
 }
 
-.share-button button {
-  width: 100%;
-  height: 2.3em;
-  font-size: 6vw;
-  font-family: 'Avenir';
-  background-color: #9B9B9B;
-}
 
-.subscribe-button button {
-  margin-top: 10vh;
-  width: 100%;
-  height: 2.3em;
-  font-size: 6vw;
-  font-family: 'Avenir';
-  background-color: #6FD100;
+.subscribe-button {
+  display: flex;
+  justify-content: center;
+  margin-top: 8vh;
 }
 // Payment type CSS
 
