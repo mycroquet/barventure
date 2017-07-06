@@ -23,8 +23,8 @@ import { Search } from '../search/search';
 })
 export class TabsPage {
 
-  tab1Root = ThirdSlide;
-  tab2Root = ListPage;
+  tab1Root = EnableLocationPage;
+  tab2Root = EnablePushPage;
   tab3Root = SecondSlide;
 
   constructor() {
