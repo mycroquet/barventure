@@ -12,10 +12,10 @@ import { CreateAccount } from '../create-account/create-account';
 import { FirstSlide } from '../slides/slide-1';
 import { SecondSlide } from '../slides/slide-2';
 import { ThirdSlide } from '../slides/slide-3';
-import { PaymentType } from '../subscription/pay-type';
-import { SelectPlan } from '../subscription/select-plan';
+import { PaymentPlan } from '../subscription/pay-plan';
 import { Subscribe } from '../subscription/subscribe';
 import { Verification } from '../subscription/verification';
+import { Search } from '../search/search';
 
 
 @Component({
@@ -23,7 +23,7 @@ import { Verification } from '../subscription/verification';
 })
 export class TabsPage {
 
-  tab1Root = EnableLocationPage;
+  tab1Root = PaymentPlan;
   tab2Root = EnablePushPage;
   tab3Root = ThirdSlide;
 

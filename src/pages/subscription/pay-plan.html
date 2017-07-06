@@ -1,0 +1,73 @@
+<ion-header>
+  <ion-toolbar color="primary">
+    <section class="subscribe-arrow">
+      <div class="arrow-back" col-2>
+        <ion-icon name="arrow-back"></ion-icon>
+      </div>
+      <div class="subscribe-header" col-10>
+        <h1>Plan & Payment</h1>
+      </div>
+    </section>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-grid>
+    <section class="plans">
+      <ion-list radio-group>
+        <ion-item>
+          <ion-label>Monthly: - $3 every month</ion-label>
+          <ion-radio checked="true" value="monthly"></ion-radio>
+        </ion-item>
+
+        <ion-item>
+          <ion-label>Annual: - $30 every 1 year</ion-label>
+          <ion-radio value="annual"></ion-radio>
+        </ion-item>
+      </ion-list>
+    </section>
+  </ion-grid>
+  <div class="payment-type-header">
+    <ion-toolbar color="primary">
+      <h2>Select Payment Type</h2>
+    </ion-toolbar>
+  </div>
+  <ion-grid>
+    <section class="payment-types">
+      <ion-list radio-group>
+        <ion-item>
+          <ion-label>Credit/Debit</ion-label>
+          <ion-radio value="credit/debit"></ion-radio>
+        </ion-item>
+
+        <ion-item>
+          <ion-label>Apple Pay</ion-label>
+          <ion-radio value="apple pay"></ion-radio>
+        </ion-item>
+
+        <ion-item>
+          <ion-label>Android Pay</ion-label>
+          <ion-radio value="android pay"></ion-radio>
+        </ion-item>
+      </ion-list>
+    </section>
+    <ion-row>
+
+      <section class="previous-next">
+        <ion-col>
+          <div class="payment-previous-arrow">
+            <ion-icon name="arrow-round-back"></ion-icon>
+          </div>
+        </ion-col>
+        <ion-col>
+          <div class="payment-next-arrow">
+            <ion-icon name="arrow-round-forward"></ion-icon>
+          </div>
+        </ion-col>
+
+      </section>
+    </ion-row>
+  </ion-grid>
+
+
+</ion-content>
