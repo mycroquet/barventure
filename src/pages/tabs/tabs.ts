@@ -23,7 +23,7 @@ import { Search } from '../search/search';
 })
 export class TabsPage {
 
-  tab1Root = MapPage;
+  tab1Root = ThirdSlide;
   tab2Root = ListPage;
   tab3Root = SecondSlide;
 

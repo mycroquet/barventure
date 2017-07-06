@@ -107,18 +107,11 @@ page-home {
 }
 
 .list-header {
-    padding-left: 3px;
     position: relative;
-    border-radius: 0;
-    min-height: 50px;
-    font-size: 1.7rem;
+    min-height: 3vh;
+    font-size: 5vw;
     color: #000;
-    background-color: #fff;
-    transition: background-color 200ms linear;
-    margin-left: 0;
-    margin-right: 8px;
-    margin-top: 0;
-    margin-bottom: 0;
+    background-color: #FFF;
 }
 
 .name-distance {
@@ -189,4 +182,21 @@ ion-icon {
     align-self: stretch;
     text-overflow: ellipsis;
     margin-left: 0;
+}
+
+.list-page .scroll-content {
+  margin-top: 5vh !important;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  margin-bottom: 0 !important;
+  position: absolute;
+  z-index: 1;
+  display: block;
+  overflow-x: hidden;
+  overflow-y: scroll;
+  -webkit-overflow-scrolling: touch;
+  will-change: scroll-position;
+  contain: size style layout;
 }
