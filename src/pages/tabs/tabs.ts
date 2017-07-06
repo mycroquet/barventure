@@ -23,9 +23,9 @@ import { Search } from '../search/search';
 })
 export class TabsPage {
 
-  tab1Root = EnableLocationPage;
-  tab2Root = EnablePushPage;
-  tab3Root = SecondSlide;
+  tab1Root = ThirdSlide;
+  tab2Root = EnableLocationPage;
+  tab3Root = EnablePushPage;
 
   constructor() {
 

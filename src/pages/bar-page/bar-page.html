@@ -1,14 +1,20 @@
 <ion-header>
-  <ion-toolbar color="primary" class="back">
-    <p><ion-icon name="arrow-back"> Back</ion-icon></p>
-
+  <ion-toolbar color="primary">
+    <section class="barpage-arrow">
+      <div class="arrow-back">
+        <ion-icon name="arrow-back"></ion-icon>
+      </div>
+      <div class="back">
+        <h1>Back</h1>
+      </div>
+    </section>
   </ion-toolbar>
 </ion-header>
 
 <ion-content>
   <ion-grid>
     <ion-row>
-      <ion-col col-12 col-sm-9 col-md-6 col-lg-4 col-xl-3>
+      <ion-col col-12>
         <section class="bar-info">
           <div class="bar-thumbnail">
             <img src="http://via.placeholder.com/75x75" alt="">
@@ -18,7 +24,7 @@
             <p><span class="bar-distance">.02 miles away</span></p>
             <p><span class="bold">BOGO:</span> <span class="bar-deal">Choose your own adventure collins or house made gin and tonic.</span></p>
           </div>
-          <div class="days-left-circle">
+          <div class="active-circle">
             <span class="days-left-number">15</span><br>
             <span class="days-left-text">Days left</span>
           </div>

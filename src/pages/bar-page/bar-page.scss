@@ -1,24 +1,18 @@
-page-home {
-
-}
+page-home {}
 
 .back {
-  display: flex;
-  color: #FFF;
+  margin-left: 2vw;
+  font-family: 'Avenir';
 }
 
-.back ion-icon {
-    display: inline-block;
-    font-family: "Ionicons";
-    -moz-osx-font-smoothing: grayscale;
-    -webkit-font-smoothing: antialiased;
-    font-style: normal;
-    font-variant: normal;
-    font-weight: normal;
-    line-height: 1;
-    text-rendering: auto;
-    text-transform: none;
-    speak: none;
+.back h1 {
+  margin-top: 1.5vh;
+}
+
+.barpage-arrow {
+  display: flex;
+  justify-content: flex-start;
+  color: #FFF;
 }
 
 .bar-thumbnail img {
@@ -31,45 +25,33 @@ page-home {
   display: flex;
   flex-direction: row;
   width: 100vw;
+  padding-right: 5vw;
 }
 
 .bar-title {
   display: flex;
   flex-direction: column;
   width: 60vw;
-  margin: 0 1em 1em .5em;
+  margin: 0 1em 1em 0.5em;
 }
 
 .bar-title h2 {
   color: #48494A;
   margin-top: 0;
   margin-bottom: 0;
+  font-size: 5.5vw;
 }
 
 .bar-title p {
   margin-top: 0;
-  margin-bottom: 5px;
+  margin-bottom: 1vh;
   color: gray;
 }
 
 .bar-deal {
-  color: orange;
+  color: #FFA300;
   font-weight: 600;
-}
-
-.days-left-circle {
-    display: inline-block;
-    text-align: center;
-    float: right;
-    border-radius: 50%;
-    height: 40px;
-    width: 40px;
-    max-width: 42px;
-    max-height: 42px;
-    background-color: orange;
-    font-family: 'Avenir-Heavy';
-    font-size: 6.5px;
-    color: #FFFFFF;
+  font-size: 3.5vw;
 }
 
 .slides {
@@ -89,6 +71,10 @@ page-home {
   color: #48494A;
 }
 
+.description p {
+  font-size: 3.5vw;
+}
+
 .address {
   display: flex;
   flex-direction: column;
@@ -102,40 +88,29 @@ page-home {
 
 .address p {
   margin-bottom: 2px;
+  font-size: 3.5vw;
 }
 
 .address .button-ios {
-    border-radius: 4px;
-    height: 1.8em;
-    width: 9em;
-    font-size: 1.4rem;
-    color: #fff;
-    background-color: #00ABC6;
-    margin-left: 0;
-    margin-right: 0.2rem;
-    margin-top: 0.4rem;
-    margin-bottom: 0.4rem;
-    padding-left: 1em;
-    padding-right: 1em;
-    padding-top: 0;
-    padding-bottom: 0;
+  border-radius: 4px;
+  height: 3vh;
+  width: 32vw;
+  font-size: 3vw;
+  color: #fff;
+  background-color: #00ABC6;
+  margin: 0.4rem 0.2rem 0.4rem 0;
+  padding: 0 1em;
 }
 
 .address .button-md {
-    border-radius: 4px;
-    height: 1.8em;
-    width: 9.5em;
-    font-size: 1.2rem;
-    color: #fff;
-    background-color: #00ABC6;
-    margin-left: 0;
-    margin-right: 0.2rem;
-    margin-top: 0.4rem;
-    margin-bottom: 0.4rem;
-    padding-left: 1em;
-    padding-right: 1em;
-    padding-top: 0;
-    padding-bottom: 0;
+  border-radius: 4px;
+  height: 2vh;
+  width: 30vw;
+  font-size: 3vw;
+  color: #fff;
+  background-color: #00ABC6;
+  margin: 0.4rem 0.2rem 0.4rem 0;
+  padding: 0 1em;
 }
 
 .redeemed-directions .button-ios {
@@ -149,75 +124,67 @@ page-home {
 .redeem-button {
   display: flex;
   justify-content: center;
-  margin-top: 15px;
+  margin-top: 3vh;
 }
-
-.redeem-button .button-ios {
-    border-radius: 6px;
-    height: 2.5em;
-    width: 95vw;
-    font-size: 2em;
-    color: #fff;
-    background-color: #7ED525;
-    margin-left: 0;
-    margin-right: 0;
-    margin-top: 0.4rem;
-    margin-bottom: 0.4rem;
-    padding-left: 0;
-    padding-right: 0;
-    padding-top: 0;
-    padding-bottom: 0;
-}
-
-.redeem-button .button-md {
-    border-radius: 6px;
-    height: 2.5em;
-    width: 95vw;
-    font-size: 2em;
-    color: #fff;
-    background-color: #7ED525;
-    margin-left: 0;
-    margin-right: 0;
-    margin-top: 0.4rem;
-    margin-bottom: 0.4rem;
-    padding-left: 0;
-    padding-right: 0;
-    padding-top: 0;
-    padding-bottom: 0;
-}
+// .redeem-button .button-ios {
+//     border-radius: 6px;
+//     height: 2.5em;
+//     width: 95vw;
+//     font-size: 2em;
+//     color: #fff;
+//     background-color: #7ED525;
+//     margin-left: 0;
+//     margin-right: 0;
+//     margin-top: 0.4rem;
+//     margin-bottom: 0.4rem;
+//     padding-left: 0;
+//     padding-right: 0;
+//     padding-top: 0;
+//     padding-bottom: 0;
+// }
+//
+// .redeem-button .button-md {
+//     border-radius: 6px;
+//     height: 2.5em;
+//     width: 95vw;
+//     font-size: 2em;
+//     color: #fff;
+//     background-color: #7ED525;
+//     margin-left: 0;
+//     margin-right: 0;
+//     margin-top: 0.4rem;
+//     margin-bottom: 0.4rem;
+//     padding-left: 0;
+//     padding-right: 0;
+//     padding-top: 0;
+//     padding-bottom: 0;
+// }
 
 .redeemed-button .button-ios {
-    border-radius: 6px;
-    height: 2.5em;
-    width: 95vw;
-    font-size: 2em;
-    color: #fff;
-    background-color: #9B9B9B;
-    margin-left: 0;
-    margin-right: 0;
-    margin-top: 0.4rem;
-    margin-bottom: 0.4rem;
-    padding-left: 0;
-    padding-right: 0;
-    padding-top: 0;
-    padding-bottom: 0;
+  border-radius: 6px;
+  height: 8vh;
+  width: 75vw;
+  font-size: 6vw;
+  color: #fff;
+  background-color: #9B9B9B;
+  margin: 0.4rem 0;
+  padding: 0;
 }
 
 .redeemed-button .button-md {
-    border-radius: 6px;
-    height: 2.5em;
-    width: 95vw;
-    font-size: 2em;
-    color: #fff;
-    background-color: #7ED525;
-    margin-left: 0;
-    margin-right: 0;
-    margin-top: 0.4rem;
-    margin-bottom: 0.4rem;
-    padding-left: 0;
-    padding-right: 0;
-    padding-top: 0;
-    padding-bottom: 0;
+  border-radius: 6px;
+  height: 8vh;
+  width: 75vw;
+  font-size: 6vw;
+  color: #fff;
+  background-color: #7ED525;
+  margin: 0.4rem 0;
+  padding: 0;
+}
+
+.tags {
+  display: flex;
+  margin-bottom: 5vh;
 }
 
 .tags-text {
