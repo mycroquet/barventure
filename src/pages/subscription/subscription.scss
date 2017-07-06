@@ -4,6 +4,7 @@ page-home {
   height: 100vh;
 }
 // Subscribe page CSS
+
 .subscribe-container {
   padding-left: 5vw;
   padding-right: 5vw;
@@ -120,6 +121,7 @@ page-home {
   background-color: #6FD100;
 }
 // Payment type CSS
+
 .payment-type-header {
   height: 4vh;
   width: 100%;
@@ -153,32 +155,60 @@ page-home {
   font-size: 5vw;
 }
 
-.previous-next {
-  display: flex;
-  width: 100%;
-  padding-left: 2em;
-  padding-right: 2em;
-  flex-direction: row;
-  justify-content: space-between;
-}
-
-.payment-previous-arrow {
-  display: flex;
-  background-color: #00B0CA;
+.payment-types .item-ios .radio-ios {
+  border: 2px solid #919191;
   border-radius: 50%;
-  width: 3em;
-  height: 3em;
-  color: #FFF;
-  align-content: center;
-  justify-content: flex-start;
+  height: 15px;
+  width: 15px;
 }
 
-.payment-next-arrow {
-  display: flex;
-  justify-content: flex-end;
-  margin-right: 0;
+.payment-types .item-md .radio-md {
+  border: 2px solid #919191;
+  border-radius: 50%;
+  height: 15px;
+  width: 15px;
 }
+
+.terms-conditions {
+  display: flex;
+  justify-content: center;
+  width: 60%;
+  height: 10vh;
+  margin-left: 25vw;
+}
+
+.terms-conditions .item-ios {
+  min-height: 10vh;
+}
+
+.terms-conditions .item-ios.item-block .item-inner {
+    padding-right: 4vw;
+    border-bottom: none;
+    font-size: 4vw;
+
+}
+.terms-conditions .item-md.item-block .item-inner {
+    padding-right: 4vw;
+    border-bottom: none;
+
+}
+
+.terms-conditions .item-ios .radio-ios {
+  border: 2px solid #919191;
+  border-radius: 50%;
+  height: 15px;
+  width: 15px;
+}
+
+.terms-conditions .item-md .radio-md {
+  border: 2px solid #919191;
+  border-radius: 50%;
+  height: 15px;
+  width: 15px;
+}
+
 // Select a Plan CSS
+
 .plans {
   padding-left: 5vw;
   padding-right: 5vw;
@@ -193,6 +223,20 @@ page-home {
 .plans .item-md {
   min-height: 5vh;
   font-size: 5vw;
+}
+
+.plans .item-ios .radio-ios {
+  border: 2px solid #919191;
+  border-radius: 50%;
+  height: 15px;
+  width: 15px;
+}
+
+.plans .item-md .radio-md {
+  border: 2px solid #919191;
+  border-radius: 50%;
+  height: 15px;
+  width: 15px;
 }
 // Verification CSS
 .verification-header {
