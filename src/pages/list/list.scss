@@ -9,12 +9,13 @@ page-home {
   white-space: nowrap;
   float: right;
   border-radius: 50%;
-  height: 40px;
-  width: 40px;
-  max-width: 50px;
+  height: 7vh;
+  width: 12.5vw;
   max-height: 50px;
+  max-width: 50px;
+  padding-top: .5vh;
   background-color: orange;
-  font-family: 'Avenir-Heavy';
+  font-family: 'Avenir';
   font-size: 0;
   color: #FFFFFF;
 }
@@ -46,28 +47,30 @@ page-home {
   align-items: center;
   float: right;
   border-radius: 50%;
-  height: 40px;
-  width: 40px;
-  max-width: 50px;
+  height: 7vh;
+  width: 12.5vw;
   max-height: 50px;
+  max-width: 50px;
+  padding-top: .5vh;
   background-color: #9B9B9B;
-  font-size: 6.8px;
+  font-family: 'Avenir';
+  font-size: 5vw;
   color: #FFFFFF;
 }
 
 .bar-distance {
-  font-size: 0.8em;
+  font-size: 3vw;
   font-style: italic;
   margin-bottom: 3px;
 }
 
 .days-left-number {
-  font-size: 16px;
+  font-size: 5vw;
   margin-bottom: 0;
 }
 
 .days-left-text {
-  font-size: 8px;
+  font-size: 2vw;
 }
 
 .bold {

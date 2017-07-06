@@ -23,9 +23,9 @@ import { Search } from '../search/search';
 })
 export class TabsPage {
 
-  tab1Root = PaymentPlan;
-  tab2Root = EnablePushPage;
-  tab3Root = ThirdSlide;
+  tab1Root = MapPage;
+  tab2Root = Search;
+  tab3Root = SecondSlide;
 
   constructor() {
 
