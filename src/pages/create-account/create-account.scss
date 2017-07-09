@@ -46,7 +46,7 @@ page-home {
   font-size: 4.5vw;
   padding: 0 2em 0 1em;
   margin-left: 0.7em;
-  margin-bottom: 5vh;
+  margin-bottom: 1vh;
 }
 
 .instructions p {
@@ -64,7 +64,7 @@ page-home {
   padding-left: 3px;
   position: relative;
   border-radius: 0;
-  min-height: 50px;
+  min-height: 7vh;
   font-size: 4vw;
   width: 75%;
   color: #000;
@@ -129,6 +129,7 @@ page-home {
   background-color: #5069AD;
   color: #FFF;
   border-radius: 22px;
+  font-size: 5vw;
   width: 11em;
   height: 5vh;
   margin-bottom: 1.3em;
@@ -143,6 +144,7 @@ page-home {
 .google-button {
   background-color: #F64949;
   color: #FFF;
+  font-size: 5vw;
   border-radius: 22px;
   width: 11em;
   height: 5vh;
@@ -153,12 +155,8 @@ page-home {
   margin-right: 2vw;
 }
 
-.send-verification {
+.send-verification button {
   background-color: #C2C2C2;
-  font-size: 6vw;
-  font-family: 'Avenir';
-  width: 95%;
-  height: 8vh;
-  margin-top: 5vh;
+  margin-top: 2vh;
   // margin-bottom: 1em;
 }

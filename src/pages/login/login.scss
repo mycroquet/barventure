@@ -50,7 +50,7 @@ page-home {
   padding-left: 3px;
   position: relative;
   border-radius: 0;
-  min-height: 50px;
+  min-height: 7vh;
   font-size: 4vw;
   width: 75%;
   color: #000;
@@ -62,7 +62,7 @@ page-home {
   padding-left: 3px;
   position: relative;
   border-radius: 0;
-  min-height: 8vh;
+  min-height: 7vh;
   width: 75%;
   font-size: 4vw;
   color: #000;
@@ -73,10 +73,25 @@ page-home {
 .login-info .item-ios.item-block .item-inner {
     padding-right: 8px;
     border-bottom: none;
-    margin-top: 20px;
+    margin-top: 3vh;
+}
+
+.login-info .item-md.item-block .item-inner {
+    padding-right: 8px;
+    border-bottom: none;
+    margin-top: 3vh;
 }
 
 .login-info .text-input-ios {
+    margin-left: 8px;
+    margin-right: 8px;
+    margin-top: 11px;
+    margin-bottom: 11px;
+    padding: 0;
+    width: calc(100% - 8px);
+}
+
+.login-info .text-input-md {
     margin-left: 8px;
     margin-right: 8px;
     margin-top: 11px;
