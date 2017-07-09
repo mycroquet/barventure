@@ -23,6 +23,7 @@ import { ThirdSlide } from '../pages/slides/slide-3';
 import { PaymentPlan } from '../pages/subscription/pay-plan';
 import { Subscribe } from '../pages/subscription/subscribe';
 import { Verification } from '../pages/subscription/verification';
+import { Login } from '../pages/login/login';
 
 
 
@@ -51,7 +52,8 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     PaymentPlan,
     Subscribe,
     Verification,
-    Search
+    Search,
+    Login
   ],
   imports: [
     BrowserModule,
@@ -79,7 +81,8 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     PaymentPlan,
     Subscribe,
     Verification,
-    Search
+    Search,
+    Login
   ],
   providers: [
     StatusBar,

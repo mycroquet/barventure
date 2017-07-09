@@ -16,6 +16,7 @@ import { PaymentPlan } from '../subscription/pay-plan';
 import { Subscribe } from '../subscription/subscribe';
 import { Verification } from '../subscription/verification';
 import { Search } from '../search/search';
+import { Login } from '../login/login';
 
 
 @Component({
@@ -23,8 +24,8 @@ import { Search } from '../search/search';
 })
 export class TabsPage {
 
-  tab1Root = Subscribe;
-  tab2Root = EnableLocationPage;
+  tab1Root = Login;
+  tab2Root = CreateAccount;
   tab3Root = EnablePushPage;
 
   constructor() {

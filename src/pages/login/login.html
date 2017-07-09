@@ -1,0 +1,39 @@
+<ion-header>
+  <ion-toolbar color="primary">
+      <div class="login">
+      <h1>Login to your account</h1>
+    </div>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-grid>
+    <ion-row>
+      <ion-col class="login-header" col-12>
+        <h2>Enter login info below</h2></ion-col>
+    </ion-row>
+    <ion-row>
+      <ion-col class="login-info" col-12>
+        <ion-item>
+          <ion-input type="text" class="input-box-email" placeholder="Email Address"></ion-input>
+        </ion-item>
+        <ion-item>
+          <ion-input type="password" class="input-box-pw" placeholder="Password"></ion-input>
+        </ion-item>
+      </ion-col>
+    </ion-row>
+    <ion-row>
+      <ion-col class="social-media-login" col-12>
+          <p>OR</p>
+        <button ion-button icon-left color="light" class="facebook-button" round><img src="../assets/icon/Facebook.png" alt="">Log In</button>
+        <button ion-button icon-left color="light" class="google-button" round><img src="../assets/icon/Google.png" alt="">Log In</button>
+        <p><a href="#">Forget Password?</a></p>
+        <div class="login-button">
+          <button ion-button>Login</button>
+        </div>
+
+      </ion-col>
+
+    </ion-row>
+  </ion-grid>
+</ion-content>
