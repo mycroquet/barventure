@@ -1,10 +1,29 @@
 page-home {}
 
-.searchbar {
-  position: fixed;
-  top: 0;
+
+.search-buttons {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
 }
 
-.tags {
-  position: relative;
+.search-buttons button {
+  height: 5vh;
+  width: 40vw;
+}
+
+.save-button {
+  margin-right: 2vw;
+}
+
+.filter-tags {
+  width: 100%;
+}
+
+.column-1 {
+  width: 50%;
+}
+
+.column-2 {
+  width: 50%;
 }

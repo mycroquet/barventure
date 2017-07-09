@@ -24,7 +24,7 @@ import { Login } from '../login/login';
 })
 export class TabsPage {
 
-  tab1Root = Login;
+  tab1Root = Search;
   tab2Root = CreateAccount;
   tab3Root = EnablePushPage;
 
