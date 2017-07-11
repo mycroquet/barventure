@@ -242,8 +242,7 @@ ion-icon {
 .map-create-account {
   display: flex;
   justify-content: center;
-  text-align: center;
-  padding-bottom: 8vh;
+  text-align: center; 
 }
 
 .map-create-account p {
@@ -252,13 +251,6 @@ ion-icon {
   margin-top: 0;
 }
 
-.map-create-account button {
-  font-size: 7vw;
-  font-family: 'Avenir';
-  background-color: #7FD524;
-  height: 8vh;
-  width: 100%;
-}
 
 .map-unsubscribed .item-ios.item-block .item-inner {
   padding-right: 0;

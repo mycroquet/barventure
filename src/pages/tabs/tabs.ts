@@ -25,8 +25,12 @@ import { Login } from '../login/login';
 export class TabsPage {
 
   tab1Root = Search;
-  tab2Root = CreateAccount;
-  tab3Root = EnablePushPage;
+  tab2Root = Login;
+  tab3Root = FirstSlide;
+  tab4Root = SecondSlide;
+  tab5Root = PaymentPlan;
+  tab6Root = Verification;
+
 
   constructor() {
 

@@ -112,11 +112,11 @@ page-home {
 }
 
 .payment-type-header h2 {
-  font-size: 6vw;
+  font-size: 5vw;
 }
 
-.payment-type-header ion-toolbar {
-  height: 6vh;
+.payment-type-header .toolbar-ios {
+  max-height: 2vh;
   padding-top: 3vh;
   padding-bottom: 4vh;
 }
@@ -138,31 +138,29 @@ page-home {
   font-size: 5vw;
 }
 
-.payment-types .item-ios .radio-ios {
-  border: 2px solid #919191;
-  border-radius: 50%;
-  height: 15px;
-  width: 15px;
-}
+// .payment-types .item-ios .radio-ios {
+//   border: 2px solid #919191;
+//   border-radius: 50%;
+//   height: 15px;
+//   width: 15px;
+// }
 
-.payment-types .item-md .radio-md {
-  border: 2px solid #919191;
-  border-radius: 50%;
-  height: 15px;
-  width: 15px;
-}
+// .payment-types .item-md .radio-md {
+//   border: 2px solid #919191;
+//   border-radius: 50%;
+//   height: 15px;
+//   width: 15px;
+// }
 
-.terms-conditions {
+.terms-conditions ion-item {
   display: flex;
-  justify-content: center;
   width: 100%;
+  justify-content: center;
   height: 10vh;
-  margin-left: 25vw;
+  padding-left: 6vw;
+  padding-right: 6vw;
 }
 
-.terms-conditions .item-ios {
-  min-height: 10vh;
-}
 
 .terms-conditions .item-ios.item-block .item-inner {
     padding-right: 4vw;
@@ -176,19 +174,19 @@ page-home {
 
 }
 
-.terms-conditions .item-ios .radio-ios {
-  border: 2px solid #919191;
-  border-radius: 50%;
-  height: 15px;
-  width: 15px;
-}
-
-.terms-conditions .item-md .radio-md {
-  border: 2px solid #919191;
-  border-radius: 50%;
-  height: 15px;
-  width: 15px;
-}
+// .terms-conditions .item-ios .radio-ios {
+//   border: 2px solid #919191;
+//   border-radius: 50%;
+//   height: 15px;
+//   width: 15px;
+// }
+//
+// .terms-conditions .item-md .radio-md {
+//   border: 2px solid #919191;
+//   border-radius: 50%;
+//   height: 15px;
+//   width: 15px;
+// }
 
 // Select a Plan CSS
 
@@ -208,19 +206,20 @@ page-home {
   font-size: 5vw;
 }
 
-.plans .item-ios .radio-ios {
-  border: 2px solid #919191;
-  border-radius: 50%;
-  height: 15px;
-  width: 15px;
-}
+// .plans .item-ios .radio-ios {
+//   border: 2px solid #919191;
+//   border-radius: 50%;
+//   height: 15px;
+//   width: 15px;
+// }
+//
+// .plans .item-md .radio-md {
+//   border: 2px solid #919191;
+//   border-radius: 50%;
+//   height: 15px;
+//   width: 15px;
+// }
 
-.plans .item-md .radio-md {
-  border: 2px solid #919191;
-  border-radius: 50%;
-  height: 15px;
-  width: 15px;
-}
 // Verification CSS
 .verification-header {
   display: flex;
