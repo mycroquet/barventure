@@ -202,5 +202,10 @@ ion-icon {
 }
 
 @media (min-width: 320px) {
-
+  .map {
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+    height: 63vh;
+  }
 }
