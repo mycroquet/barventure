@@ -24,8 +24,8 @@ import { Login } from '../login/login';
 })
 export class TabsPage {
 
-  tab1Root = Search;
-  tab2Root = Login;
+  tab1Root = MapPage;
+  tab2Root = ListPage;
   tab3Root = FirstSlide;
   tab4Root = SecondSlide;
   tab5Root = PaymentPlan;

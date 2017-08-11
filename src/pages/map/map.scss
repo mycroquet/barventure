@@ -17,44 +17,6 @@ page-home {
   margin-left: 0;
 }
 
-.active-circle {
-  display: inline-block;
-  text-align: center;
-  white-space: nowrap;
-  float: right;
-  border-radius: 50%;
-  height: 7vh;
-  width: 12.5vw;
-  max-height: 50px;
-  max-width: 50px;
-  padding-top: .5vh;
-  background-color: orange;
-  font-family: 'Avenir';
-  font-size: 0;
-  color: #FFFFFF;
-}
-
-.active-circle span {
-  display: block;
-}
-
-.redeemed {
-  color: #9B9B9B;
-}
-
-.item-ios h2 {
-    margin: 0;
-    font-size: 6vw;
-    font-weight: normal;
-}
-
-item-ios {
-  height: 21%;
-}
-
-item-md {
-  height: 21%;
-}
 // .item-ios ion-icon[item-end], .item-ios ion-icon[item-left], .item-ios ion-icon[item-right], .item-ios ion-icon[item-start] .list-arrow-redeemed {
 //     margin-left: 0;
 //     color: #9B9B9B;
@@ -68,51 +30,6 @@ item-md {
   color: #7ED525;
 }
 
-.redeemed-circle {
-  display: inline-block;
-  text-align: center;
-  white-space: nowrap;
-  float: right;
-  border-radius: 50%;
-  height: 7vh;
-  width: 12.5vw;
-  max-height: 50px;
-  max-width: 50px;
-  padding-top: 2.6vh;
-  background-color: 9B9B9B;
-  font-family: 'Avenir';
-  font-size: 2vw;
-  color: #FFFFFF;
-}
-
-.label-ios {
-    margin-left: 0;
-    margin-right: 2vw;
-    margin-top: 2.5vh;
-    margin-bottom: 2vh;
-}
-
-.label-md {
-    margin-left: 0;
-    margin-right: 2vw;
-    margin-top: 3vh;
-    margin-bottom: 2vh;
-}
-
-.bar-distance {
-  font-size: 3vw;
-  font-style: italic;
-  margin-bottom: 3px;
-}
-
-.days-left-number {
-  font-size: 5vw;
-  margin-bottom: 0;
-}
-
-.days-left-text {
-  font-size: 2vw;
-}
 
 .bold {
   font-weight: bold;
@@ -136,7 +53,7 @@ item-md {
 }
 
 .map-card .item-ios.item-block .item-inner {
-    padding-right: 8px;
+    padding-right: 1vw;
     border-bottom: 0;
 }
 
@@ -218,6 +135,11 @@ ion-icon {
   font-size: 2em;
 }
 
+.map-segment {
+  background-color: #FFF;
+  color: #00ABC6;
+}
+
 .input-wrapper {
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -242,7 +164,7 @@ ion-icon {
 .map-create-account {
   display: flex;
   justify-content: center;
-  text-align: center; 
+  text-align: center;
 }
 
 .map-create-account p {
@@ -277,4 +199,8 @@ ion-icon {
   -webkit-overflow-scrolling: touch;
   will-change: scroll-position;
   contain: size style layout;
+}
+
+@media (min-width: 320px) {
+
 }

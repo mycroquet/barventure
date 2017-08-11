@@ -3,31 +3,6 @@ page-home {
 }
 
 
-.active-circle {
-  display: inline-block;
-  text-align: center;
-  white-space: nowrap;
-  float: right;
-  border-radius: 50%;
-  height: 7vh;
-  width: 12.5vw;
-  max-height: 50px;
-  max-width: 50px;
-  padding-top: .5vh;
-  background-color: orange;
-  font-family: 'Avenir';
-  font-size: 0;
-  color: #FFFFFF;
-}
-
-.active-circle span {
-  display: block;
-}
-
-.redeemed {
-  color: #9B9B9B;
-}
-
 // .item-ios ion-icon[item-end], .item-ios ion-icon[item-left], .item-ios ion-icon[item-right], .item-ios ion-icon[item-start] .list-arrow-redeemed {
 //     margin-left: 0;
 //     color: #9B9B9B;
@@ -36,6 +11,10 @@ page-home {
 .item-ios ion-icon[item-end], .item-ios ion-icon[item-left], .item-ios ion-icon[item-right], .item-ios ion-icon[item-start] .active-arrow {
     margin-left: 0;
     color: #7ED525;
+}
+
+.item-ios.item-block .item-inner {
+    padding-right: 1vw !important;
 }
 
 .list-header .label-ios {
@@ -52,51 +31,6 @@ page-home {
     margin-bottom: 2vh;
 }
 
-
-.redeemed-circle {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  float: right;
-  border-radius: 50%;
-  height: 7vh;
-  width: 12.5vw;
-  max-height: 50px;
-  max-width: 50px;
-  padding-top: .5vh;
-  background-color: #9B9B9B;
-  font-family: 'Avenir';
-  font-size: 5vw;
-  color: #FFFFFF;
-}
-
-.bar-distance {
-  font-size: 3vw;
-  font-style: italic;
-  margin-bottom: 3px;
-}
-
-.days-left-number {
-  font-size: 5vw;
-  margin-bottom: 0;
-}
-
-.days-left-text {
-  font-size: 2vw;
-}
-
-.bold {
-  font-weight: bold;
-  color: #48494A;
-}
-
-.toolbar-ios {
-  padding: 11px;
-  margin-bottom: 15px;
-  min-height: 44px;
-  height: 5em;
-}
 
 .list-ios {
   margin: 0 0 32px;
@@ -199,4 +133,8 @@ ion-icon {
   -webkit-overflow-scrolling: touch;
   will-change: scroll-position;
   contain: size style layout;
+}
+
+@media screen and (min-width: 320px) {
+
 }

@@ -38,12 +38,84 @@ body {
   border-width: 0;
 }
 
+// Map and List page shared styles
+
+.active-circle {
+  display: inline-block;
+  text-align: center;
+  white-space: nowrap;
+  float: right;
+  border-radius: 50%;
+  height: 7vh;
+  width: 12.5vw;
+  max-height: 50px;
+  max-width: 50px;
+  padding-top: .5vh;
+  background-color: orange;
+  font-family: 'Avenir';
+  font-size: 0;
+  color: #FFFFFF;
+}
+
+.active-circle span {
+  display: block;
+}
+
+.redeemed-circle {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  float: right;
+  border-radius: 50%;
+  height: 7vh;
+  width: 12.5vw;
+  max-height: 50px;
+  max-width: 50px;
+  padding-top: .5vh;
+  background-color: #9B9B9B;
+  font-family: 'Avenir';
+  font-size: 2.4vw;
+  color: #FFFFFF;
+}
+
+.bar-distance {
+  font-size: 3vw;
+  font-style: italic;
+  margin-bottom: 3px;
+}
+
+.days-left-number {
+  font-size: 5vw;
+  margin-bottom: 0;
+}
+
+.days-left-text {
+  font-size: 2vw;
+}
+
+.bold {
+  font-weight: bold;
+  color: #48494A;
+}
+
 .toolbar-ios {
   padding: 11px;
   margin-bottom: 0 !important;
   min-height: 0 !important;
   height: 11vh !important;
 }
+
+.redeemed {
+  color: #9B9B9B;
+}
+
+// .toolbar-ios {
+//   padding: 11px;
+//   margin-bottom: 15px;
+//   min-height: 44px;
+//   height: 5em;
+// }
 
 .toolbar-md {
   padding: 11px;
@@ -342,18 +414,120 @@ ion-label {
   white-space: normal;
 }
 
+.item-ios {
+  height: 21%;
+}
+
+.item-md {
+  height: 21%;
+}
+
 .item-ios h2 {
   margin: 0;
-  font-size: 2.2rem;
+  font-size: 6vw;
   font-weight: normal;
+  width: 61vw;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
 .item-md h2 {
   margin: 0;
-  font-size: 2.2rem;
+  font-size: 6vw;
   font-weight: normal;
+  width: 61vw;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
 .tab-item-active {
   background: green;
+}
+
+@media screen and (min-width: 320px) {
+  .item-ios h2 {
+    margin: 0;
+    font-size: 6vw;
+    font-weight: normal;
+    width: 55vw;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+
+  .item-md h2 {
+    margin: 0;
+    font-size: 6vw;
+    font-weight: normal;
+    width: 55vw;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+
+  .bar-distance {
+    font-size: 4vw;
+    font-style: italic;
+    margin-bottom: 3px;
+  }
+
+  .days-left-number {
+    font-size: 5vw;
+    margin-bottom: 0;
+  }
+
+  .days-left-text {
+    font-size: 2vw;
+  }
+
+  .bold {
+    font-weight: bold;
+    color: #48494A;
+  }
+}
+
+@media screen and (min-width: 374px) {
+  .item-ios h2 {
+    margin: 0;
+    font-size: 6vw;
+    font-weight: normal;
+    width: 60vw;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+
+  .item-md h2 {
+    margin: 0;
+    font-size: 6vw;
+    font-weight: normal;
+    width: 60vw;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+}
+
+@media screen and (min-width: 480px) {
+  .item-ios h2 {
+    margin: 0;
+    font-size: 6vw;
+    font-weight: normal;
+    width: 58vw;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+
+  .item-md h2 {
+    margin: 0;
+    font-size: 6vw;
+    font-weight: normal;
+    width: 58vw;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
 }
