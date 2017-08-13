@@ -26,7 +26,7 @@ export class TabsPage {
 
   tab1Root = MapPage;
   tab2Root = ListPage;
-  tab3Root = FirstSlide;
+  tab3Root = MapUnsubscribed;
   tab4Root = SecondSlide;
   tab5Root = PaymentPlan;
   tab6Root = Verification;
